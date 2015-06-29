@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{37F7142F-48DC-47A5-A1A8-375BB0E0D4D6}"
+	ProjectSection(SolutionItems) = preProject
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+		TryOut.vsmdi = TryOut.vsmdi
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Snippets", "Snippets", "{0D35F996-6846-45AA-9AD1-AA82649B960F}"
+	ProjectSection(SolutionItems) = preProject
+		Trials.snippet = Trials.snippet
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utility", "Utility\Utility.csproj", "{29ABAC60-C14E-4322-8FF9-E29310644AFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilityTest", "UtilityTest\UtilityTest.csproj", "{C17B5653-D286-4957-BBB3-07D456406F21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EulerCommands", "EulerCommands\EulerCommands.csproj", "{8BDBAFBB-1087-48E8-B6ED-810C813C9DE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtomFeedService", "AtomFeedService\AtomFeedService.csproj", "{C003CE67-AA6B-42C2-8E50-50E2BC203719}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{B8400476-892A-4FA6-8106-ADD83B9D4C22}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29ABAC60-C14E-4322-8FF9-E29310644AFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29ABAC60-C14E-4322-8FF9-E29310644AFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29ABAC60-C14E-4322-8FF9-E29310644AFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29ABAC60-C14E-4322-8FF9-E29310644AFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C17B5653-D286-4957-BBB3-07D456406F21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C17B5653-D286-4957-BBB3-07D456406F21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C17B5653-D286-4957-BBB3-07D456406F21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C17B5653-D286-4957-BBB3-07D456406F21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BDBAFBB-1087-48E8-B6ED-810C813C9DE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BDBAFBB-1087-48E8-B6ED-810C813C9DE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BDBAFBB-1087-48E8-B6ED-810C813C9DE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BDBAFBB-1087-48E8-B6ED-810C813C9DE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C003CE67-AA6B-42C2-8E50-50E2BC203719}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C003CE67-AA6B-42C2-8E50-50E2BC203719}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C003CE67-AA6B-42C2-8E50-50E2BC203719}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C003CE67-AA6B-42C2-8E50-50E2BC203719}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0D35F996-6846-45AA-9AD1-AA82649B960F} = {37F7142F-48DC-47A5-A1A8-375BB0E0D4D6}
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = TryOut.vsmdi
+	EndGlobalSection
+EndGlobal

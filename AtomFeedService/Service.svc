@@ -1,0 +1,5 @@
+﻿<%@ ServiceHost 
+	Language="C#" 
+	Debug="true" 
+	Service="AtomFeedService.FeedService" 
+	Factory="System.ServiceModel.Activation.WebServiceHostFactory"%>
