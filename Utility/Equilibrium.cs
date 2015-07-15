@@ -7,7 +7,7 @@ namespace Utility
 {
     public class Equilibrium
     {
-        public int Equilibrium(int[] collection)
+        public int Get(int[] collection)
         {
             // Return P such that 0<=P<len(A)
             // strategy used is to run to the first equilibrium for which sum of lower indices = sum of higher

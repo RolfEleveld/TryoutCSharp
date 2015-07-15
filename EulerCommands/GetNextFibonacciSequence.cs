@@ -1,7 +1,7 @@
 using System;
 using System.Diagnostics;
 using System.Linq;
-using System.Management.Automation;
+using System.Management.Instrumentation;
 
 namespace Powershell.Extensions.For.Euler
 {

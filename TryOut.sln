@@ -18,8 +18,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utility", "Utility\Utility.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilityTest", "UtilityTest\UtilityTest.csproj", "{C17B5653-D286-4957-BBB3-07D456406F21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EulerCommands", "EulerCommands\EulerCommands.csproj", "{8BDBAFBB-1087-48E8-B6ED-810C813C9DE3}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtomFeedService", "AtomFeedService\AtomFeedService.csproj", "{C003CE67-AA6B-42C2-8E50-50E2BC203719}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{B8400476-892A-4FA6-8106-ADD83B9D4C22}"
@@ -43,10 +41,6 @@ Global
 		{C17B5653-D286-4957-BBB3-07D456406F21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C17B5653-D286-4957-BBB3-07D456406F21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C17B5653-D286-4957-BBB3-07D456406F21}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8BDBAFBB-1087-48E8-B6ED-810C813C9DE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8BDBAFBB-1087-48E8-B6ED-810C813C9DE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8BDBAFBB-1087-48E8-B6ED-810C813C9DE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8BDBAFBB-1087-48E8-B6ED-810C813C9DE3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C003CE67-AA6B-42C2-8E50-50E2BC203719}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C003CE67-AA6B-42C2-8E50-50E2BC203719}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C003CE67-AA6B-42C2-8E50-50E2BC203719}.Release|Any CPU.ActiveCfg = Release|Any CPU

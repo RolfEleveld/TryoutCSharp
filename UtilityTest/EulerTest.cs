@@ -1,12 +1,10 @@
-﻿using Utility;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using System;
+using Utility;
 using System.Collections.Generic;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace UtilityTest
 {
-    
-    
-    /// <summary>
     ///This is a test class for EulerTest and is intended
     ///to contain all EulerTest Unit Tests
     ///</summary>
@@ -67,7 +65,7 @@ namespace UtilityTest
         /// <summary>
         ///A test for GetSum
         ///</summary>
-        [TestMethod()]
+        [TestMethod]
         public void GetSumTest()
         {
             Euler target = new Euler(); 

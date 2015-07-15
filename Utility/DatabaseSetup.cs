@@ -4,7 +4,6 @@ using System.Data;
 using System.Data.Common;
 using System.Configuration;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Microsoft.VisualStudio.TeamSystem.Data.UnitTesting;
 
 namespace Utility
 {
@@ -17,8 +16,8 @@ namespace Utility
         {
             //   Setup the test database based on setting in the
             // configuration file
-            DatabaseTestClass.TestService.DeployDatabaseProject();
-            DatabaseTestClass.TestService.GenerateData();
+            //DatabaseTestClass.TestService.DeployDatabaseProject();
+            //DatabaseTestClass.TestService.GenerateData();
         }
 
     }
