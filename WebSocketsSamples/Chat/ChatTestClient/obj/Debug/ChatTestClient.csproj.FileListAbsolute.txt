@@ -1,0 +1,6 @@
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\build\Debug\WebSockets\bin\ChatTestClient.exe
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\build\Debug\WebSockets\bin\ChatTestClient.pdb
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\Chat\ChatTestClient\obj\Debug\ChatTestClient.csprojResolveAssemblyReference.cache
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\Chat\ChatTestClient\obj\Debug\ChatTestClient.exe
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\Chat\ChatTestClient\obj\Debug\ChatTestClient.pdb
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\build\Debug\WebSockets\bin\ChatTestClient.exe.config

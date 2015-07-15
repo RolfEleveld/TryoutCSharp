@@ -1,0 +1,9 @@
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\Chat\ChatService\obj\Debug\ChatService.csprojResolveAssemblyReference.cache
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\build\Debug\WebSockets\bin\clientaccesspolicy.xml
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\build\Debug\WebSockets\bin\ChatService.exe.config
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\build\Debug\WebSockets\bin\ChatService.exe
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\build\Debug\WebSockets\bin\ChatService.pdb
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\Chat\ChatService\obj\Debug\ChatService.exe
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\Chat\ChatService\obj\Debug\ChatService.pdb
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\build\Debug\WebSockets\bin\ChatService.exe.CodeAnalysisLog.xml
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\build\Debug\WebSockets\bin\ChatService.exe.lastcodeanalysissucceeded

@@ -1,0 +1,7 @@
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\Game\GameService\obj\Debug\GameService.csprojResolveAssemblyReference.cache
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\build\Debug\WebSockets\bin\clientaccesspolicy.xml
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\build\Debug\WebSockets\bin\GameService.exe.config
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\build\Debug\WebSockets\bin\GameService.exe
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\build\Debug\WebSockets\bin\GameService.pdb
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\Game\GameService\obj\Debug\GameService.exe
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\Game\GameService\obj\Debug\GameService.pdb

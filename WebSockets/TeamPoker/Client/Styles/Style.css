@@ -1,0 +1,215 @@
+﻿* {margin:0}
+
+body
+{
+	font-size:14px;
+	font-family:Monospace, Helvetica;
+	padding-left:10px;
+}
+#mask
+{
+	background-color:#333;
+	position:absolute;
+	top:0;
+	left:0;
+	text-align:center;
+	width:100%;
+	height:100%;
+	opacity:0.4;
+	z-index:200;
+}
+#loginForm
+{
+	width:300px;
+	height:150px;
+	background-color:#fff;
+	border:5px solid #CCC;
+	border-radius:5px;
+	opacity:0.8;
+	z-index:500;
+	position:absolute;
+	top:120px;
+	left:30%;
+	text-align:center;
+}
+#loginForm h3
+{
+	background-color:#999;
+	border-bottom:1px dotted #333;
+	text-align:left;
+	padding-left:0.5em;
+}
+#txtNickname
+{
+	width:230px;
+}
+header
+{
+	margin:0 auto;
+	text-align:center;
+}
+hr
+{
+	margin:5 auto;
+}
+footer
+{
+	margin:0 auto;
+	text-align:center;
+}
+#participaints
+{
+	height:1.5em;
+	color:#4169E1;
+	margin-bottom:1em;
+}
+.participaint 
+{
+	color:#4169E1;
+	font-weight:bold;	
+}
+#votebar
+{
+	min-width:440px;
+	height:120px;
+	padding-top:8px;
+}
+.votevalue
+{
+	color:#B424E6;
+}
+#pokerbar
+{
+	height:100px;
+	line-height:100px;
+	margin-left:20px;
+	font-weight:bold;
+	display:table-cell;
+	vertical-align:middle;
+}
+
+.poker
+{
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border:2px solid #2985F7;
+	box-shadow: 5px 5px 5px #CCC;
+	width:49.5px;
+	height:80px;
+	line-height:80px;
+	text-align:center;
+	background-color:White;
+	vertical-align:middle;
+	position:relative;
+	margin-bottom:2px;
+	float:left;
+	z-index:0;
+}
+.poker:hover {color:red;z-index:100;cursor:pointer;} /*reflow*/
+.votedPoker
+{
+    width:55px;
+    height:100px;
+    text-align:center;
+    padding:0 5px;
+    opacity:0;
+    transition: opacity 4s;
+    -moz-transition: opacity 4s;
+    -webkit-transition: opacity 4s; 
+    -o-transition: opacity 4s;
+    position: relative;
+    float:left;
+}
+.resultPoker
+{
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    transition: all 2s ease;
+    text-align:center;
+    margin-top:20px;
+}
+#btnViewResult{width:120px;display:none;}
+#voteResultWrapper
+{
+	min-width:480px;
+	max-width:600px;
+	min-height:140px;
+	max-height:300px;
+	text-align:center;
+	background-color:#fff;
+	border:5px solid #CCC;
+	border-radius:5px;
+	opacity:0.9;
+	z-index:500;
+	position:absolute;
+	top:120px;
+	left:30%;
+	display:none;
+}
+#voteResultPanel
+{
+	padding:8px 10px 5px 10px;
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+.activePoker
+{
+	cursor:pointer;
+	z-index:100;
+}
+.alienPoker
+{
+	margin-top:10px;
+	color:Red;
+	font-weight:bold;
+}
+#pokerbar #zero
+{
+	margin-left:10px;
+}
+#pokerbar #ahalf
+{
+	margin-left:-18px;
+}
+#pokerbar #one
+{
+	margin-left:-18px;
+}
+#pokerbar #two
+{
+	margin-left:-18px;
+}
+#pokerbar #three
+{
+	margin-left:-18px;
+}
+#pokerbar #five
+{
+	margin-left:-18px;
+}
+#pokerbar #eight
+{
+	margin-left:-18px;
+}#pokerbar #thirteen
+{
+	margin-left:-18px;
+}#pokerbar #twenty
+{
+	margin-left:-18px;
+}
+#pokerbar #forty
+{
+	margin-left:-18px;
+}
+#pokerbar #hundred
+{
+	margin-left:-18px;
+}
+#pokerbar #questionmark
+{
+	margin-left:-18px;
+}

@@ -1,0 +1,30 @@
+
+.buttonStyle {
+  border: 1px solid #000;
+  background: black;
+  color: #fff;
+  width: 100px;
+  height: 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.buttonStyle:Hover {
+  background: white;
+  color: Black;
+}
+
+.statestable {
+  border: 1px solid #000;
+}
+.statestable th, td{
+  padding: 4px;
+}
+.statestable th{
+ color: #fff;
+ background-color:#333
+}
+.statestable tr{
+border: 1px solid #000;
+}
+

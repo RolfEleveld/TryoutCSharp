@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/uicommon.css" />
+
+    <script src="javascript/jquery-1.6.1.min.js"></script>
+    <script src="javascript/base64.js"></script>
+    <script src="javascript/index.js"></script>
+    <script src="javascript/login.js"></script>
+    <script src="javascript/about.js"></script>
+    <script src="javascript/states.js"></script>
+
+    <title>WCF Web Application</title>
+  </head>
+  <body>
+    <header>
+    <table id="headerbar" style="width: 100%">
+      <tr>
+        <td style="width:33.33%; text-align:left;"><img src="images/wcf.png" width="83" height="84"/></td>
+        <td style="width:33.33%; text-align:center;"><h2 style="text-shadow: 4px 4px 4px #ccc">WCF Web Application</h2></td>
+        <td style="width:33.33%; text-align:right"><div id="logoninfo" style="display:none;">
+            <a id="a_username" href="#" title="User Name">User Name</a>
+            <input	id="logout" type="button" value="Logout"/><br />
+            <span id="a_timestamp">Login time: </span>
+          </td>
+        </tr>
+      </table>
+      <hr />
+      <div>
+          <a id="a_states" href="#">States</a>
+          <a id="a_about" href="#">About</a>
+      </div>
+      <hr />
+      </header>
+      <article id="content"></article>  
+    </body>
+  </html>

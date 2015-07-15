@@ -1,0 +1,150 @@
+{
+  "country": "India",
+  "states": [
+    {
+      "state": "Andhra Pradesh",
+      "capital": "Hyderabad",
+      "visited": false
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "capital": "Itanagar",
+      "visited": false
+    },
+    {
+      "state": "Assam",
+      "capital": "Dispur",
+      "visited": false
+    },
+    {
+      "state": "Bihar",
+      "capital": "Patna",
+      "visited": false
+    },
+    {
+      "state": "Chhattisgarh",
+      "capital": "Raipur",
+      "visited": false
+    },
+    {
+      "state": "Delhi",
+      "capital": "New Delhi",
+      "visited": false
+    },
+    {
+      "state": "Goa",
+      "capital": "Panaji",
+      "visited": false
+    },
+    {
+      "state": "Gujarat",
+      "capital": "Gandhinagar",
+      "visited": false
+    },
+    {
+      "state": "Haryana",
+      "capital": "Chandigarh",
+      "visited": false
+    },
+    {
+      "state": "Himachal Pradesh",
+      "capital": "Shimla",
+      "visited": false
+    },
+    {
+      "state": "Jammu and Kashmir",
+      "capital": "Jammu",
+      "visited": false
+    },
+    {
+      "state": "Jharkhand",
+      "capital": "Ranchi",
+      "visited": false
+    },
+    {
+      "state": "Karnataka",
+      "capital": "Bangalore",
+      "visited": false
+    },
+    {
+      "state": "Kerala",
+      "capital": "Thiruvananthapuram",
+      "visited": false
+    },
+    {
+      "state": "Madhya Pradesh",
+      "capital": "Bhopal",
+      "visited": false
+    },
+    {
+      "state": "Maharashtra",
+      "capital": "Mumbai",
+      "visited": false
+    },
+    {
+      "state": "Manipur",
+      "capital": "Imphal",
+      "visited": false
+    },
+    {
+      "state": "Meghalaya",
+      "capital": "Shillong",
+      "visited": false
+    },
+    {
+      "state": "Mizoram",
+      "capital": "Aizawl",
+      "visited": false
+    },
+    {
+      "state": "Nagaland",
+      "capital": "Kohima",
+      "visited": false
+    },
+    {
+      "state": "Orissa",
+      "capital": "Bhubaneswar",
+      "visited": false
+    },
+    {
+      "state": "Punjab",
+      "capital": "Chandigarh",
+      "visited": false
+    },
+    {
+      "state": "Rajasthan",
+      "capital": "Jaipur",
+      "visited": false
+    },
+    {
+      "state": "Sikkim",
+      "capital": "Gangtok",
+      "visited": false
+    },
+    {
+      "state": "Tamil Nadu",
+      "capital": "Chennai",
+      "visited": false
+    },
+    {
+      "state": "Tripura",
+      "capital": "Agartala",
+      "visited": false
+    },
+    {
+      "state": "Uttar Pradesh",
+      "capital": "Lucknow",
+      "visited": false
+    },
+    {
+      "state": "Uttaranchal",
+      "capital": "Dehradun",
+      "visited": false
+    },
+    {
+      "state": "West Bengal",
+      "capital": "Kolkata",
+      "visited": false
+    }
+  ]
+}

@@ -1,0 +1,402 @@
+2011-01-04 10:51:20,916 [13] ERROR SecureSuperWebSocket - System.IO.IOException: The handshake failed due to an unexpected packet format.
+   at System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.Security.SslStream.AuthenticateAsServer(X509Certificate serverCertificate, Boolean clientCertificateRequired, SslProtocols enabledSslProtocols, Boolean checkCertificateRevocation)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.InitStream(SocketContext context) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 108
+   at SuperSocket.SocketEngine.SyncSocketSession`2.Start() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 47
+2011-01-04 10:52:47,797 [14] ERROR SecureSuperWebSocket - System.IO.IOException: The handshake failed due to an unexpected packet format.
+   at System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.Security.SslStream.AuthenticateAsServer(X509Certificate serverCertificate, Boolean clientCertificateRequired, SslProtocols enabledSslProtocols, Boolean checkCertificateRevocation)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.InitStream(SocketContext context) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 108
+   at SuperSocket.SocketEngine.SyncSocketSession`2.Start() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 47
+2011-01-04 10:54:10,630 [16] ERROR SecureSuperWebSocket - System.IO.IOException: The handshake failed due to an unexpected packet format.
+   at System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.Security.SslStream.AuthenticateAsServer(X509Certificate serverCertificate, Boolean clientCertificateRequired, SslProtocols enabledSslProtocols, Boolean checkCertificateRevocation)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.InitStream(SocketContext context) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 108
+   at SuperSocket.SocketEngine.SyncSocketSession`2.Start() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 47
+2011-01-04 10:55:39,196 [14] ERROR SecureSuperWebSocket - System.IO.IOException: The handshake failed due to an unexpected packet format.
+   at System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.Security.SslStream.AuthenticateAsServer(X509Certificate serverCertificate, Boolean clientCertificateRequired, SslProtocols enabledSslProtocols, Boolean checkCertificateRevocation)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.InitStream(SocketContext context) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 108
+   at SuperSocket.SocketEngine.SyncSocketSession`2.Start() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 47
+2011-01-04 10:57:08,653 [12] ERROR SecureSuperWebSocket - System.IO.IOException: The handshake failed due to an unexpected packet format.
+   at System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.Security.SslStream.AuthenticateAsServer(X509Certificate serverCertificate, Boolean clientCertificateRequired, SslProtocols enabledSslProtocols, Boolean checkCertificateRevocation)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.InitStream(SocketContext context) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 108
+   at SuperSocket.SocketEngine.SyncSocketSession`2.Start() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 47
+2011-01-04 10:58:07,654 [8] ERROR SecureSuperWebSocket - System.IO.IOException: The handshake failed due to an unexpected packet format.
+   at System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.Security.SslStream.AuthenticateAsServer(X509Certificate serverCertificate, Boolean clientCertificateRequired, SslProtocols enabledSslProtocols, Boolean checkCertificateRevocation)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.InitStream(SocketContext context) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 108
+   at SuperSocket.SocketEngine.SyncSocketSession`2.Start() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 47
+2011-01-04 11:03:31,959 [12] ERROR SecureSuperWebSocket - System.IO.IOException: The handshake failed due to an unexpected packet format.
+   at System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.Security.SslStream.AuthenticateAsServer(X509Certificate serverCertificate, Boolean clientCertificateRequired, SslProtocols enabledSslProtocols, Boolean checkCertificateRevocation)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.InitStream(SocketContext context) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 108
+   at SuperSocket.SocketEngine.SyncSocketSession`2.Start() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 47
+2011-01-04 11:05:13,103 [4] ERROR SecureSuperWebSocket - System.IO.IOException: The handshake failed due to an unexpected packet format.
+   at System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.Security.SslStream.AuthenticateAsServer(X509Certificate serverCertificate, Boolean clientCertificateRequired, SslProtocols enabledSslProtocols, Boolean checkCertificateRevocation)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.InitStream(SocketContext context) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 108
+   at SuperSocket.SocketEngine.SyncSocketSession`2.Start() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 47
+2011-01-04 11:05:48,333 [18] ERROR SecureSuperWebSocket - System.IO.IOException: The handshake failed due to an unexpected packet format.
+   at System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.Security.SslStream.AuthenticateAsServer(X509Certificate serverCertificate, Boolean clientCertificateRequired, SslProtocols enabledSslProtocols, Boolean checkCertificateRevocation)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.InitStream(SocketContext context) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 108
+   at SuperSocket.SocketEngine.SyncSocketSession`2.Start() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 47
+2011-01-04 11:13:12,114 [21] ERROR SuperWebSocket - SessionID: 7c4bd6ef-675c-4630-b8ac-b37dda2d5d19, SessionKey: 7c4bd6ef-675c-4630-b8ac-b37dda2d5d19, RemoteEndPoint: 127.0.0.1:3207
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, Byte[] data) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 230
+2011-01-04 11:13:12,193 [21] ERROR SuperWebSocket - SessionID: 7c4bd6ef-675c-4630-b8ac-b37dda2d5d19, SessionKey: 7c4bd6ef-675c-4630-b8ac-b37dda2d5d19, RemoteEndPoint: 127.0.0.1:3207
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, String message) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 196
+2011-01-04 11:13:12,193 [21] ERROR SuperWebSocket - SessionID: 7c4bd6ef-675c-4630-b8ac-b37dda2d5d19, SessionKey: 7c4bd6ef-675c-4630-b8ac-b37dda2d5d19, RemoteEndPoint: 127.0.0.1:3207
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, Byte[] data) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 230
+2011-01-04 12:36:22,764 [20] ERROR SuperWebSocket - SessionID: 4b18ecf6-0460-432b-a11b-10b34adefe51, SessionKey: 4b18ecf6-0460-432b-a11b-10b34adefe51, RemoteEndPoint: 127.0.0.1:4395
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, Byte[] data) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 230
+2011-01-04 12:36:22,795 [20] ERROR SuperWebSocket - SessionID: 4b18ecf6-0460-432b-a11b-10b34adefe51, SessionKey: 4b18ecf6-0460-432b-a11b-10b34adefe51, RemoteEndPoint: 127.0.0.1:4395
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, String message) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 196
+2011-01-04 12:36:22,796 [20] ERROR SuperWebSocket - SessionID: 4b18ecf6-0460-432b-a11b-10b34adefe51, SessionKey: 4b18ecf6-0460-432b-a11b-10b34adefe51, RemoteEndPoint: 127.0.0.1:4395
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, Byte[] data) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 230
+2011-01-04 14:09:20,645 [61] ERROR SuperWebSocket - SessionID: d0440707-e2bb-4339-bd9e-9b83c230e0ff, SessionKey: d0440707-e2bb-4339-bd9e-9b83c230e0ff, RemoteEndPoint: 127.0.0.1:6567
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, Byte[] data) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 230
+2011-01-04 14:09:20,648 [64] ERROR SuperWebSocket - SessionID: 0d73b5fd-126c-4578-8bd9-f94a2c2e0a8c, SessionKey: 0d73b5fd-126c-4578-8bd9-f94a2c2e0a8c, RemoteEndPoint: 127.0.0.1:6590
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, Byte[] data) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 230
+2011-01-04 14:09:20,649 [67] ERROR SuperWebSocket - SessionID: 0d73b5fd-126c-4578-8bd9-f94a2c2e0a8c, SessionKey: 0d73b5fd-126c-4578-8bd9-f94a2c2e0a8c, RemoteEndPoint: 127.0.0.1:6590
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, Byte[] data) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 230
+2011-01-04 14:09:20,652 [64] ERROR SuperWebSocket - SessionID: 0d73b5fd-126c-4578-8bd9-f94a2c2e0a8c, SessionKey: 0d73b5fd-126c-4578-8bd9-f94a2c2e0a8c, RemoteEndPoint: 127.0.0.1:6590
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, String message) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 196
+2011-01-04 14:09:20,654 [64] ERROR SuperWebSocket - SessionID: 0d73b5fd-126c-4578-8bd9-f94a2c2e0a8c, SessionKey: 0d73b5fd-126c-4578-8bd9-f94a2c2e0a8c, RemoteEndPoint: 127.0.0.1:6590
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, Byte[] data) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 230
+2011-01-04 14:09:20,653 [67] ERROR SuperWebSocket - SessionID: 0d73b5fd-126c-4578-8bd9-f94a2c2e0a8c, SessionKey: 0d73b5fd-126c-4578-8bd9-f94a2c2e0a8c, RemoteEndPoint: 127.0.0.1:6590
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, String message) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 196
+2011-01-04 14:09:20,656 [67] ERROR SuperWebSocket - SessionID: 0d73b5fd-126c-4578-8bd9-f94a2c2e0a8c, SessionKey: 0d73b5fd-126c-4578-8bd9-f94a2c2e0a8c, RemoteEndPoint: 127.0.0.1:6590
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, Byte[] data) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 230
+2011-01-04 14:09:20,652 [61] ERROR SuperWebSocket - SessionID: d0440707-e2bb-4339-bd9e-9b83c230e0ff, SessionKey: d0440707-e2bb-4339-bd9e-9b83c230e0ff, RemoteEndPoint: 127.0.0.1:6567
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, String message) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 196
+2011-01-04 14:09:20,656 [61] ERROR SuperWebSocket - SessionID: d0440707-e2bb-4339-bd9e-9b83c230e0ff, SessionKey: d0440707-e2bb-4339-bd9e-9b83c230e0ff, RemoteEndPoint: 127.0.0.1:6567
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, Byte[] data) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 230
+2011-01-04 14:19:29,989 [56] ERROR SuperWebSocket - SessionID: d2b83fb7-a17e-4bba-9271-ae67e62e26a9, SessionKey: d2b83fb7-a17e-4bba-9271-ae67e62e26a9, RemoteEndPoint: 127.0.0.1:6956
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, Byte[] data) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 230
+2011-01-04 14:19:29,990 [56] ERROR SuperWebSocket - SessionID: d2b83fb7-a17e-4bba-9271-ae67e62e26a9, SessionKey: d2b83fb7-a17e-4bba-9271-ae67e62e26a9, RemoteEndPoint: 127.0.0.1:6956
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, String message) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 196
+2011-01-04 14:19:29,991 [56] ERROR SuperWebSocket - SessionID: d2b83fb7-a17e-4bba-9271-ae67e62e26a9, SessionKey: d2b83fb7-a17e-4bba-9271-ae67e62e26a9, RemoteEndPoint: 127.0.0.1:6956
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, Byte[] data) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 230
+2011-01-04 15:07:45,868 [52] ERROR SuperWebSocket - SessionID: 9c50d9f5-f63b-4751-b205-d6f31d65a3d4, SessionKey: 9c50d9f5-f63b-4751-b205-d6f31d65a3d4, RemoteEndPoint: 127.0.0.1:8305
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, Byte[] data) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 230
+2011-01-04 15:07:45,872 [52] ERROR SuperWebSocket - SessionID: 9c50d9f5-f63b-4751-b205-d6f31d65a3d4, SessionKey: 9c50d9f5-f63b-4751-b205-d6f31d65a3d4, RemoteEndPoint: 127.0.0.1:8305
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, String message) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 196
+2011-01-04 15:07:45,873 [52] ERROR SuperWebSocket - SessionID: 9c50d9f5-f63b-4751-b205-d6f31d65a3d4, SessionKey: 9c50d9f5-f63b-4751-b205-d6f31d65a3d4, RemoteEndPoint: 127.0.0.1:8305
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, Byte[] data) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 230
+2011-01-04 16:24:59,304 [21] ERROR SuperWebSocket - SessionID: 54c5a914-1f7c-40f3-add1-f2f6b0b89d1f, SessionKey: 54c5a914-1f7c-40f3-add1-f2f6b0b89d1f, RemoteEndPoint: 127.0.0.1:9864
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, Byte[] data) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 230
+2011-01-04 16:24:59,369 [21] ERROR SuperWebSocket - SessionID: 54c5a914-1f7c-40f3-add1-f2f6b0b89d1f, SessionKey: 54c5a914-1f7c-40f3-add1-f2f6b0b89d1f, RemoteEndPoint: 127.0.0.1:9864
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, String message) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 196
+2011-01-04 16:24:59,370 [21] ERROR SuperWebSocket - SessionID: 54c5a914-1f7c-40f3-add1-f2f6b0b89d1f, SessionKey: 54c5a914-1f7c-40f3-add1-f2f6b0b89d1f, RemoteEndPoint: 127.0.0.1:9864
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, Byte[] data) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 230
+2011-01-04 16:36:59,328 [16] ERROR SuperWebSocket - SessionID: 70f839fb-1d4a-4d9a-9670-5639c07bc538, SessionKey: 70f839fb-1d4a-4d9a-9670-5639c07bc538, RemoteEndPoint: 127.0.0.1:10008
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, Byte[] data) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 230
+2011-01-04 16:36:59,329 [16] ERROR SuperWebSocket - SessionID: 70f839fb-1d4a-4d9a-9670-5639c07bc538, SessionKey: 70f839fb-1d4a-4d9a-9670-5639c07bc538, RemoteEndPoint: 127.0.0.1:10008
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, String message) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 196
+2011-01-04 16:36:59,330 [16] ERROR SuperWebSocket - SessionID: 70f839fb-1d4a-4d9a-9670-5639c07bc538, SessionKey: 70f839fb-1d4a-4d9a-9670-5639c07bc538, RemoteEndPoint: 127.0.0.1:10008
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, Byte[] data) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 230
+2011-01-04 16:42:59,340 [17] ERROR SuperWebSocket - SessionID: 7972ba04-ad72-4350-8e13-3b3971d6ef67, SessionKey: 7972ba04-ad72-4350-8e13-3b3971d6ef67, RemoteEndPoint: 127.0.0.1:10162
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, Byte[] data) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 230
+2011-01-04 16:42:59,341 [17] ERROR SuperWebSocket - SessionID: 7972ba04-ad72-4350-8e13-3b3971d6ef67, SessionKey: 7972ba04-ad72-4350-8e13-3b3971d6ef67, RemoteEndPoint: 127.0.0.1:10162
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, String message) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 196
+2011-01-04 16:42:59,341 [17] ERROR SuperWebSocket - SessionID: 7972ba04-ad72-4350-8e13-3b3971d6ef67, SessionKey: 7972ba04-ad72-4350-8e13-3b3971d6ef67, RemoteEndPoint: 127.0.0.1:10162
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, Byte[] data) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 230
+2011-01-04 07:03:09,544 [14] ERROR SuperWebSocket - SessionID: 769f2627-5945-4d16-adce-29641a8d7d94, SessionKey: 769f2627-5945-4d16-adce-29641a8d7d94, RemoteEndPoint: 127.0.0.1:1958
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, Byte[] data) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 230
+2011-01-04 07:03:09,582 [14] ERROR SuperWebSocket - SessionID: 769f2627-5945-4d16-adce-29641a8d7d94, SessionKey: 769f2627-5945-4d16-adce-29641a8d7d94, RemoteEndPoint: 127.0.0.1:1958
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, String message) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 196
+2011-01-04 07:03:09,583 [14] ERROR SuperWebSocket - SessionID: 769f2627-5945-4d16-adce-29641a8d7d94, SessionKey: 769f2627-5945-4d16-adce-29641a8d7d94, RemoteEndPoint: 127.0.0.1:1958
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, Byte[] data) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 230

@@ -1,0 +1,14 @@
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WhiteBoard\SuperWebSocket\bin\Debug\SuperWebSocket.dll
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WhiteBoard\SuperWebSocket\bin\Debug\SuperWebSocket.pdb
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WhiteBoard\SuperWebSocket\bin\Debug\JsonUtil.dll
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WhiteBoard\SuperWebSocket\bin\Debug\SuperSocket.Common.dll
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WhiteBoard\SuperWebSocket\bin\Debug\SuperSocket.SocketBase.dll
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WhiteBoard\SuperWebSocket\bin\Debug\SuperSocket.SocketEngine.dll
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WhiteBoard\SuperWebSocket\bin\Debug\log4net.dll
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WhiteBoard\SuperWebSocket\bin\Debug\JsonUtil.pdb
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WhiteBoard\SuperWebSocket\bin\Debug\SuperSocket.Common.pdb
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WhiteBoard\SuperWebSocket\bin\Debug\SuperSocket.SocketBase.pdb
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WhiteBoard\SuperWebSocket\bin\Debug\SuperSocket.SocketEngine.pdb
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WhiteBoard\SuperWebSocket\obj\Debug\SuperWebSocket.csprojResolveAssemblyReference.cache
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WhiteBoard\SuperWebSocket\obj\Debug\SuperWebSocket.dll
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WhiteBoard\SuperWebSocket\obj\Debug\SuperWebSocket.pdb

@@ -1,0 +1,69 @@
+<stylecopresultscache>
+  <version>10</version>
+  <project key="-967694008">
+    <configuration>TRACE</configuration>
+  </project>
+  <sourcecode name="CompanyInfo.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>04/28/2011 16:23:49</timestamp>
+      <milliseconds>124</milliseconds>
+    </settings>
+    <timestamp>04/28/2011 16:25:06</timestamp>
+    <milliseconds>460</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Companies.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>04/28/2011 16:23:49</timestamp>
+      <milliseconds>124</milliseconds>
+    </settings>
+    <timestamp>04/28/2011 16:25:06</timestamp>
+    <milliseconds>457</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="GlobalSuppressions.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>04/28/2011 16:23:49</timestamp>
+      <milliseconds>124</milliseconds>
+    </settings>
+    <timestamp>04/28/2011 16:25:06</timestamp>
+    <milliseconds>469</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="CompanyInfoCollection.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>04/28/2011 16:23:49</timestamp>
+      <milliseconds>124</milliseconds>
+    </settings>
+    <timestamp>04/28/2011 16:25:06</timestamp>
+    <milliseconds>465</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Program.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>04/28/2011 16:23:49</timestamp>
+      <milliseconds>124</milliseconds>
+    </settings>
+    <timestamp>04/28/2011 16:25:06</timestamp>
+    <milliseconds>473</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="AssemblyInfo.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>04/28/2011 16:23:49</timestamp>
+      <milliseconds>124</milliseconds>
+    </settings>
+    <timestamp>04/28/2011 16:25:06</timestamp>
+    <milliseconds>478</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Subscription.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>04/28/2011 16:23:49</timestamp>
+      <milliseconds>124</milliseconds>
+    </settings>
+    <timestamp>04/28/2011 16:25:06</timestamp>
+    <milliseconds>483</milliseconds>
+    <violations />
+  </sourcecode>
+</stylecopresultscache>

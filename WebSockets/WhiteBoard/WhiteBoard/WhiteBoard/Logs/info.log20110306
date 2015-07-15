@@ -1,0 +1,9 @@
+2011-03-06 07:40:32,562 [1] INFO  SuperSocket - SuperWebSocket has been started
+2011-03-06 07:40:32,578 [1] INFO  SuperSocket - SecureSuperWebSocket has been started
+2011-03-06 07:41:38,360 [7] INFO  SuperWebSocket - SessionID: 62960873-9fb3-4a67-958c-27a89d1e4f43, SessionKey: 62960873-9fb3-4a67-958c-27a89d1e4f43, RemoteEndPoint: 127.0.0.1:1206
+New SocketSession was accepted!
+2011-03-06 07:48:32,561 [21] INFO  SuperWebSocket - SessionID: 62960873-9fb3-4a67-958c-27a89d1e4f43, SessionKey: 62960873-9fb3-4a67-958c-27a89d1e4f43, RemoteEndPoint: 127.0.0.1:1206
+The socket session has been closed for 414.187 timeout!
+2011-03-06 07:48:32,567 [21] INFO  SuperWebSocket - SocketSession 62960873-9fb3-4a67-958c-27a89d1e4f43 was closed!
+2011-03-06 08:18:32,758 [53] INFO  SuperSocket - SuperWebSocket has been stopped
+2011-03-06 08:18:32,860 [53] INFO  SuperSocket - SecureSuperWebSocket has been stopped

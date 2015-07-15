@@ -1,0 +1,6 @@
+2011-01-06 09:30:41,930 [10] ERROR SuperWebSocket - SessionID: 3bcef366-19c7-4c67-90c9-845947a01423, SessionKey: 3bcef366-19c7-4c67-90c9-845947a01423, RemoteEndPoint: 127.0.0.1:1409
+2011-01-06 09:35:27,273 [16] ERROR SuperWebSocket - SessionID: 6996bc9d-7792-4d04-ab75-d48d3287a494, SessionKey: 6996bc9d-7792-4d04-ab75-d48d3287a494, RemoteEndPoint: 127.0.0.1:1471
+2011-01-06 09:36:28,358 [17] ERROR SuperWebSocket - SessionID: 8e266413-005c-4bbd-b8a1-5177d1735a6b, SessionKey: 8e266413-005c-4bbd-b8a1-5177d1735a6b, RemoteEndPoint: 127.0.0.1:1488
+2011-01-06 09:37:20,472 [18] ERROR SuperWebSocket - SessionID: d0db806f-d00a-47bb-9a69-f8e8f69fd7fe, SessionKey: d0db806f-d00a-47bb-9a69-f8e8f69fd7fe, RemoteEndPoint: 127.0.0.1:1519
+2011-01-06 12:10:18,191 [11] ERROR SuperWebSocket - SessionID: cf32dac6-6b57-42ce-b87b-6546aeba51fd, SessionKey: cf32dac6-6b57-42ce-b87b-6546aeba51fd, RemoteEndPoint: 127.0.0.1:1459
+2011-01-06 12:27:47,762 [16] ERROR SuperWebSocket - SessionID: 5da6f857-2545-40f8-a39f-2b848781cd6e, SessionKey: 5da6f857-2545-40f8-a39f-2b848781cd6e, RemoteEndPoint: 127.0.0.1:1834

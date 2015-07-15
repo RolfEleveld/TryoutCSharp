@@ -1,0 +1,23 @@
+2011-02-17 20:22:29,599 [16] ERROR SuperWebSocket - SessionID: dc5042d2-460f-489b-a6b1-b25d7870e273, SessionKey: dc5042d2-460f-489b-a6b1-b25d7870e273, RemoteEndPoint: 127.0.0.1:12884
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, Byte[] data) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 230
+2011-02-17 20:22:30,181 [16] ERROR SuperWebSocket - SessionID: 11f86396-ec59-4a3a-80ef-4c87dabeac99, SessionKey: 11f86396-ec59-4a3a-80ef-4c87dabeac99, RemoteEndPoint: 127.0.0.1:12875
+System.InvalidOperationException: Collection was modified; enumeration operation may not execute.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Collections.Generic.List`1.Enumerator.MoveNextRare()
+   at System.Collections.Generic.List`1.Enumerator.MoveNext()
+   at SuperWebSocket.SuperWebSocketInitializer.SendToAll(String message) in C:\projects\WhiteBoard\SuperWebSocket\SuperWebSocketInitializer.cs:line 229
+   at SuperWebSocket.SuperWebSocketInitializer.socketServer_SessionClosed(WebSocketSession session, CloseReason reason) in C:\projects\WhiteBoard\SuperWebSocket\SuperWebSocketInitializer.cs:line 170
+   at SuperWebSocket.WebSocketServer.OnSocketSessionClosed(Object sender, SocketSessionClosedEventArgs e) in C:\projects\WhiteBoard\SuperWebSocket\WebSocketServer.cs:line 323
+   at System.EventHandler`1.Invoke(Object sender, TEventArgs e)
+   at SuperSocket.SocketEngine.SocketSession`2.OnClose(CloseReason reason) in E:\Workshop\SuperSocket\mainline\SocketEngine\SocketSession.cs:line 144
+   at SuperSocket.SocketEngine.SocketSession`2.Close(CloseReason reason) in E:\Workshop\SuperSocket\mainline\SocketEngine\SocketSession.cs:line 247
+   at SuperSocket.SocketEngine.SyncSocketSession`2.Close(CloseReason reason) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 95
+   at SuperSocket.SocketEngine.SyncSocketSession`2.TryGetCommand(TCommandInfo& commandInfo) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 140

@@ -1,0 +1,157 @@
+2011-02-05 04:18:20,292 [4] INFO  SuperSocket - SuperWebSocket has been started
+2011-02-05 04:18:20,307 [4] INFO  SuperSocket - SecureSuperWebSocket has been started
+2011-02-05 04:18:25,111 [10] INFO  SuperWebSocket - SessionID: 485ab6cf-9718-48cf-99e2-ba4861493388, SessionKey: 485ab6cf-9718-48cf-99e2-ba4861493388, RemoteEndPoint: 127.0.0.1:1220
+New SocketSession was accepted!
+2011-02-05 04:19:29,730 [12] INFO  SuperWebSocket - SocketSession 485ab6cf-9718-48cf-99e2-ba4861493388 was closed!
+2011-02-05 04:24:23,636 [10] INFO  SuperWebSocket - SessionID: 658f06fa-3d2a-4c12-8a48-994a2b1ba24d, SessionKey: 658f06fa-3d2a-4c12-8a48-994a2b1ba24d, RemoteEndPoint: 127.0.0.1:1236
+New SocketSession was accepted!
+2011-02-05 04:24:39,362 [18] INFO  SuperWebSocket - SocketSession 658f06fa-3d2a-4c12-8a48-994a2b1ba24d was closed!
+2011-02-05 04:30:00,763 [10] INFO  SuperWebSocket - SessionID: d8c738e1-5ad0-4ec8-a267-f388d7029974, SessionKey: d8c738e1-5ad0-4ec8-a267-f388d7029974, RemoteEndPoint: 127.0.0.1:1252
+New SocketSession was accepted!
+2011-02-05 04:30:11,324 [10] INFO  SuperWebSocket - SessionID: 4e775dcd-e1aa-41ad-8268-f6842699293f, SessionKey: 4e775dcd-e1aa-41ad-8268-f6842699293f, RemoteEndPoint: 127.0.0.1:1261
+New SocketSession was accepted!
+2011-02-05 04:30:24,974 [10] INFO  SuperWebSocket - SessionID: 578058be-95a9-439c-aed5-f6391d555a6c, SessionKey: 578058be-95a9-439c-aed5-f6391d555a6c, RemoteEndPoint: 127.0.0.1:1269
+New SocketSession was accepted!
+2011-02-05 04:30:52,260 [19] INFO  SuperWebSocket - SocketSession 4e775dcd-e1aa-41ad-8268-f6842699293f was closed!
+2011-02-05 04:30:52,261 [25] INFO  SuperWebSocket - SocketSession d8c738e1-5ad0-4ec8-a267-f388d7029974 was closed!
+2011-02-05 04:30:52,263 [9] INFO  SuperWebSocket - SocketSession 578058be-95a9-439c-aed5-f6391d555a6c was closed!
+2011-02-05 04:31:07,895 [10] INFO  SuperWebSocket - SessionID: 9795948e-b9cb-4fd8-9877-def8d53088bd, SessionKey: 9795948e-b9cb-4fd8-9877-def8d53088bd, RemoteEndPoint: 127.0.0.1:1283
+New SocketSession was accepted!
+2011-02-05 04:31:18,498 [10] INFO  SuperWebSocket - SessionID: feb6d6ba-8d7a-4351-9403-717bcf7c5026, SessionKey: feb6d6ba-8d7a-4351-9403-717bcf7c5026, RemoteEndPoint: 127.0.0.1:1293
+New SocketSession was accepted!
+2011-02-05 04:31:28,392 [10] INFO  SuperWebSocket - SessionID: c6909657-cc8a-42b5-8a5b-2f6c11d6cd98, SessionKey: c6909657-cc8a-42b5-8a5b-2f6c11d6cd98, RemoteEndPoint: 127.0.0.1:1301
+New SocketSession was accepted!
+2011-02-05 04:36:20,328 [13] INFO  SuperWebSocket - SessionID: 9795948e-b9cb-4fd8-9877-def8d53088bd, SessionKey: 9795948e-b9cb-4fd8-9877-def8d53088bd, RemoteEndPoint: 127.0.0.1:1283
+The socket session has been closed for 306.804 timeout!
+2011-02-05 04:36:20,330 [13] INFO  SuperWebSocket - SocketSession 9795948e-b9cb-4fd8-9877-def8d53088bd was closed!
+2011-02-05 04:38:20,331 [18] INFO  SuperWebSocket - SessionID: feb6d6ba-8d7a-4351-9403-717bcf7c5026, SessionKey: feb6d6ba-8d7a-4351-9403-717bcf7c5026, RemoteEndPoint: 127.0.0.1:1293
+The socket session has been closed for 408.603 timeout!
+2011-02-05 04:38:20,332 [18] INFO  SuperWebSocket - SocketSession feb6d6ba-8d7a-4351-9403-717bcf7c5026 was closed!
+2011-02-05 04:38:20,335 [18] INFO  SuperWebSocket - SessionID: c6909657-cc8a-42b5-8a5b-2f6c11d6cd98, SessionKey: c6909657-cc8a-42b5-8a5b-2f6c11d6cd98, RemoteEndPoint: 127.0.0.1:1301
+The socket session has been closed for 411.934 timeout!
+2011-02-05 04:38:20,336 [18] INFO  SuperWebSocket - SocketSession c6909657-cc8a-42b5-8a5b-2f6c11d6cd98 was closed!
+2011-02-05 04:39:18,935 [10] INFO  SuperWebSocket - SessionID: 16c646fd-2a50-4229-a3a5-b392e0d9eb2e, SessionKey: 16c646fd-2a50-4229-a3a5-b392e0d9eb2e, RemoteEndPoint: 127.0.0.1:1313
+New SocketSession was accepted!
+2011-02-05 04:39:38,023 [10] INFO  SuperWebSocket - SessionID: 41271f6b-853f-47c4-9c3b-a8381b9e4c83, SessionKey: 41271f6b-853f-47c4-9c3b-a8381b9e4c83, RemoteEndPoint: 127.0.0.1:1322
+New SocketSession was accepted!
+2011-02-05 04:42:05,950 [10] INFO  SuperWebSocket - SessionID: 98de077f-7ad7-4b59-967e-f8c649157ca1, SessionKey: 98de077f-7ad7-4b59-967e-f8c649157ca1, RemoteEndPoint: 127.0.0.1:1333
+New SocketSession was accepted!
+2011-02-05 04:43:28,849 [10] INFO  SuperWebSocket - SessionID: d7f7953d-4ec5-4003-92bf-593f0f34308e, SessionKey: d7f7953d-4ec5-4003-92bf-593f0f34308e, RemoteEndPoint: 127.0.0.1:1342
+New SocketSession was accepted!
+2011-02-05 04:43:45,002 [17] INFO  SuperWebSocket - SocketSession d7f7953d-4ec5-4003-92bf-593f0f34308e was closed!
+2011-02-05 04:43:45,100 [10] INFO  SuperWebSocket - SessionID: f2decf58-c7f9-438a-bd74-a6d5bc11246e, SessionKey: f2decf58-c7f9-438a-bd74-a6d5bc11246e, RemoteEndPoint: 127.0.0.1:1350
+New SocketSession was accepted!
+2011-02-05 04:45:31,321 [26] INFO  SuperWebSocket - SocketSession f2decf58-c7f9-438a-bd74-a6d5bc11246e was closed!
+2011-02-05 04:45:31,395 [10] INFO  SuperWebSocket - SessionID: e86d4160-1475-4d22-9d4c-a42d931195f9, SessionKey: e86d4160-1475-4d22-9d4c-a42d931195f9, RemoteEndPoint: 127.0.0.1:1358
+New SocketSession was accepted!
+2011-02-05 04:45:32,390 [16] INFO  SuperWebSocket - SocketSession e86d4160-1475-4d22-9d4c-a42d931195f9 was closed!
+2011-02-05 04:45:32,495 [10] INFO  SuperWebSocket - SessionID: 7b4ecea2-f651-4951-b2cf-bb5340f6d106, SessionKey: 7b4ecea2-f651-4951-b2cf-bb5340f6d106, RemoteEndPoint: 127.0.0.1:1366
+New SocketSession was accepted!
+2011-02-05 04:45:40,030 [10] INFO  SuperWebSocket - SessionID: 143c9f41-7a34-453c-961f-2d66a6194e7b, SessionKey: 143c9f41-7a34-453c-961f-2d66a6194e7b, RemoteEndPoint: 127.0.0.1:1374
+New SocketSession was accepted!
+2011-02-05 04:46:20,350 [27] INFO  SuperWebSocket - SessionID: 41271f6b-853f-47c4-9c3b-a8381b9e4c83, SessionKey: 41271f6b-853f-47c4-9c3b-a8381b9e4c83, RemoteEndPoint: 127.0.0.1:1322
+The socket session has been closed for 392.446 timeout!
+2011-02-05 04:46:20,352 [27] INFO  SuperWebSocket - SocketSession 41271f6b-853f-47c4-9c3b-a8381b9e4c83 was closed!
+2011-02-05 04:46:20,360 [27] INFO  SuperWebSocket - SessionID: 16c646fd-2a50-4229-a3a5-b392e0d9eb2e, SessionKey: 16c646fd-2a50-4229-a3a5-b392e0d9eb2e, RemoteEndPoint: 127.0.0.1:1313
+The socket session has been closed for 417.031 timeout!
+2011-02-05 04:46:20,362 [27] INFO  SuperWebSocket - SocketSession 16c646fd-2a50-4229-a3a5-b392e0d9eb2e was closed!
+2011-02-05 04:48:20,355 [27] INFO  SuperWebSocket - SessionID: 98de077f-7ad7-4b59-967e-f8c649157ca1, SessionKey: 98de077f-7ad7-4b59-967e-f8c649157ca1, RemoteEndPoint: 127.0.0.1:1333
+The socket session has been closed for 358.543 timeout!
+2011-02-05 04:48:20,356 [27] INFO  SuperWebSocket - SocketSession 98de077f-7ad7-4b59-967e-f8c649157ca1 was closed!
+2011-02-05 04:51:42,921 [14] INFO  SuperWebSocket - SocketSession 143c9f41-7a34-453c-961f-2d66a6194e7b was closed!
+2011-02-05 04:51:43,059 [10] INFO  SuperWebSocket - SessionID: 34a9b865-56cc-4ca8-9661-0e25765a2c30, SessionKey: 34a9b865-56cc-4ca8-9661-0e25765a2c30, RemoteEndPoint: 127.0.0.1:1384
+New SocketSession was accepted!
+2011-02-05 04:51:46,141 [4] INFO  SuperWebSocket - SocketSession 34a9b865-56cc-4ca8-9661-0e25765a2c30 was closed!
+2011-02-05 04:51:46,229 [10] INFO  SuperWebSocket - SessionID: 909db9f4-a4f1-4305-b804-db66710cac95, SessionKey: 909db9f4-a4f1-4305-b804-db66710cac95, RemoteEndPoint: 127.0.0.1:1392
+New SocketSession was accepted!
+2011-02-05 04:51:47,008 [12] INFO  SuperWebSocket - SocketSession 909db9f4-a4f1-4305-b804-db66710cac95 was closed!
+2011-02-05 04:51:47,109 [10] INFO  SuperWebSocket - SessionID: c7cc1492-ae6b-4398-a4e6-b6ab5c940113, SessionKey: c7cc1492-ae6b-4398-a4e6-b6ab5c940113, RemoteEndPoint: 127.0.0.1:1400
+New SocketSession was accepted!
+2011-02-05 04:52:01,677 [26] INFO  SuperWebSocket - SocketSession c7cc1492-ae6b-4398-a4e6-b6ab5c940113 was closed!
+2011-02-05 04:52:01,801 [10] INFO  SuperWebSocket - SessionID: 56a41f99-d091-41c8-82cc-2d39dfba0d18, SessionKey: 56a41f99-d091-41c8-82cc-2d39dfba0d18, RemoteEndPoint: 127.0.0.1:1408
+New SocketSession was accepted!
+2011-02-05 04:52:02,916 [16] INFO  SuperWebSocket - SocketSession 56a41f99-d091-41c8-82cc-2d39dfba0d18 was closed!
+2011-02-05 04:52:03,014 [10] INFO  SuperWebSocket - SessionID: bddeaad0-7459-4945-8953-cd578241ce7e, SessionKey: bddeaad0-7459-4945-8953-cd578241ce7e, RemoteEndPoint: 127.0.0.1:1416
+New SocketSession was accepted!
+2011-02-05 04:52:12,638 [10] INFO  SuperWebSocket - SessionID: 9c5b6a57-b37a-4fdd-b4b1-883608eda96f, SessionKey: 9c5b6a57-b37a-4fdd-b4b1-883608eda96f, RemoteEndPoint: 127.0.0.1:1424
+New SocketSession was accepted!
+2011-02-05 04:52:14,854 [25] INFO  SuperWebSocket - SocketSession 9c5b6a57-b37a-4fdd-b4b1-883608eda96f was closed!
+2011-02-05 04:52:14,960 [10] INFO  SuperWebSocket - SessionID: 2cafba36-c98b-4502-9cce-86a135a293a7, SessionKey: 2cafba36-c98b-4502-9cce-86a135a293a7, RemoteEndPoint: 127.0.0.1:1432
+New SocketSession was accepted!
+2011-02-05 04:52:15,658 [9] INFO  SuperWebSocket - SocketSession 2cafba36-c98b-4502-9cce-86a135a293a7 was closed!
+2011-02-05 04:52:15,767 [10] INFO  SuperWebSocket - SessionID: 946aceeb-007f-445c-af09-e153b3097def, SessionKey: 946aceeb-007f-445c-af09-e153b3097def, RemoteEndPoint: 127.0.0.1:1440
+New SocketSession was accepted!
+2011-02-05 04:52:20,365 [26] INFO  SuperWebSocket - SessionID: 7b4ecea2-f651-4951-b2cf-bb5340f6d106, SessionKey: 7b4ecea2-f651-4951-b2cf-bb5340f6d106, RemoteEndPoint: 127.0.0.1:1366
+The socket session has been closed for 406.69 timeout!
+2011-02-05 04:52:20,365 [26] INFO  SuperWebSocket - SocketSession 7b4ecea2-f651-4951-b2cf-bb5340f6d106 was closed!
+2011-02-05 04:54:32,733 [25] INFO  SuperWebSocket - SocketSession 946aceeb-007f-445c-af09-e153b3097def was closed!
+2011-02-05 04:54:32,734 [25] INFO  SuperWebSocket - SocketSession bddeaad0-7459-4945-8953-cd578241ce7e was closed!
+2011-02-05 04:54:32,734 [25] INFO  SuperSocket - SuperWebSocket has been stopped
+2011-02-05 04:54:39,193 [4] INFO  SuperSocket - SuperWebSocket has been started
+2011-02-05 04:54:39,240 [4] INFO  SuperSocket - SecureSuperWebSocket has been started
+2011-02-05 04:54:46,002 [8] INFO  SuperWebSocket - SessionID: eaa88e28-b080-45b2-a277-4606fdc0d8a7, SessionKey: eaa88e28-b080-45b2-a277-4606fdc0d8a7, RemoteEndPoint: 127.0.0.1:1455
+New SocketSession was accepted!
+2011-02-05 04:55:00,167 [8] INFO  SuperWebSocket - SessionID: 37f5a00f-cbb1-4e0d-a648-b13da5a0ecd7, SessionKey: 37f5a00f-cbb1-4e0d-a648-b13da5a0ecd7, RemoteEndPoint: 127.0.0.1:1463
+New SocketSession was accepted!
+2011-02-05 04:55:14,032 [13] INFO  SuperWebSocket - SocketSession 37f5a00f-cbb1-4e0d-a648-b13da5a0ecd7 was closed!
+2011-02-05 04:55:14,036 [11] INFO  SuperWebSocket - SocketSession eaa88e28-b080-45b2-a277-4606fdc0d8a7 was closed!
+2011-02-05 05:01:30,190 [8] INFO  SuperWebSocket - SessionID: 20832307-3904-4f32-8625-162a6fd098a3, SessionKey: 20832307-3904-4f32-8625-162a6fd098a3, RemoteEndPoint: 127.0.0.1:1479
+New SocketSession was accepted!
+2011-02-05 05:01:40,637 [8] INFO  SuperWebSocket - SessionID: 35ac5ea5-0a58-4bd5-80b3-cd1732246873, SessionKey: 35ac5ea5-0a58-4bd5-80b3-cd1732246873, RemoteEndPoint: 127.0.0.1:1488
+New SocketSession was accepted!
+2011-02-05 05:02:28,654 [8] INFO  SuperWebSocket - SessionID: e2f443cf-2da3-4b83-a405-a6c3b76fb24a, SessionKey: e2f443cf-2da3-4b83-a405-a6c3b76fb24a, RemoteEndPoint: 127.0.0.1:1502
+New SocketSession was accepted!
+2011-02-05 05:02:34,698 [13] INFO  SuperWebSocket - SocketSession e2f443cf-2da3-4b83-a405-a6c3b76fb24a was closed!
+2011-02-05 05:02:35,637 [16] INFO  SuperWebSocket - SocketSession 35ac5ea5-0a58-4bd5-80b3-cd1732246873 was closed!
+2011-02-05 05:02:37,087 [12] INFO  SuperWebSocket - SocketSession 20832307-3904-4f32-8625-162a6fd098a3 was closed!
+2011-02-05 05:03:41,196 [15] INFO  SuperSocket - SuperWebSocket has been stopped
+2011-02-05 05:03:47,523 [4] INFO  SuperSocket - SuperWebSocket has been started
+2011-02-05 05:03:47,583 [4] INFO  SuperSocket - SecureSuperWebSocket has been started
+2011-02-05 05:03:52,674 [8] INFO  SuperWebSocket - SessionID: df6fac02-1550-47e7-9a19-0ff8102d75a9, SessionKey: df6fac02-1550-47e7-9a19-0ff8102d75a9, RemoteEndPoint: 127.0.0.1:1520
+New SocketSession was accepted!
+2011-02-05 05:04:59,985 [12] INFO  SuperWebSocket - SocketSession df6fac02-1550-47e7-9a19-0ff8102d75a9 was closed!
+2011-02-05 05:04:59,987 [12] INFO  SuperSocket - SuperWebSocket has been stopped
+2011-02-05 05:05:00,096 [12] INFO  SuperSocket - SecureSuperWebSocket has been stopped
+2011-02-05 05:05:29,580 [4] INFO  SuperSocket - SuperWebSocket has been started
+2011-02-05 05:05:29,616 [4] INFO  SuperSocket - SecureSuperWebSocket has been started
+2011-02-05 05:05:33,948 [14] INFO  SuperWebSocket - SessionID: 3eabe671-5101-485c-8895-fd83167b0d8d, SessionKey: 3eabe671-5101-485c-8895-fd83167b0d8d, RemoteEndPoint: 127.0.0.1:1535
+New SocketSession was accepted!
+2011-02-05 05:06:13,969 [14] INFO  SuperWebSocket - SessionID: c6989008-853a-4730-bfcf-cc45c8fcc8bf, SessionKey: c6989008-853a-4730-bfcf-cc45c8fcc8bf, RemoteEndPoint: 127.0.0.1:1543
+New SocketSession was accepted!
+2011-02-05 05:09:48,415 [14] INFO  SuperWebSocket - SessionID: c8c945bf-c6d8-4e73-b1b0-d886bf9c1f86, SessionKey: c8c945bf-c6d8-4e73-b1b0-d886bf9c1f86, RemoteEndPoint: 127.0.0.1:1553
+New SocketSession was accepted!
+2011-02-05 05:09:57,262 [14] INFO  SuperWebSocket - SessionID: 0fa2d7f9-a521-47e9-badf-18c08fe416df, SessionKey: 0fa2d7f9-a521-47e9-badf-18c08fe416df, RemoteEndPoint: 127.0.0.1:1561
+New SocketSession was accepted!
+2011-02-05 05:11:09,927 [14] INFO  SuperWebSocket - SessionID: 8c76fd24-c433-4778-891f-73e1aee6b9ec, SessionKey: 8c76fd24-c433-4778-891f-73e1aee6b9ec, RemoteEndPoint: 127.0.0.1:1572
+New SocketSession was accepted!
+2011-02-05 05:11:29,544 [20] INFO  SuperWebSocket - SessionID: 3eabe671-5101-485c-8895-fd83167b0d8d, SessionKey: 3eabe671-5101-485c-8895-fd83167b0d8d, RemoteEndPoint: 127.0.0.1:1535
+The socket session has been closed for 321.525 timeout!
+2011-02-05 05:11:29,550 [20] INFO  SuperWebSocket - SocketSession 3eabe671-5101-485c-8895-fd83167b0d8d was closed!
+2011-02-05 05:11:29,563 [20] INFO  SuperWebSocket - SessionID: c6989008-853a-4730-bfcf-cc45c8fcc8bf, SessionKey: c6989008-853a-4730-bfcf-cc45c8fcc8bf, RemoteEndPoint: 127.0.0.1:1543
+The socket session has been closed for 315.584 timeout!
+2011-02-05 05:11:29,564 [20] INFO  SuperWebSocket - SocketSession c6989008-853a-4730-bfcf-cc45c8fcc8bf was closed!
+2011-02-05 05:15:29,552 [8] INFO  SuperWebSocket - SessionID: c8c945bf-c6d8-4e73-b1b0-d886bf9c1f86, SessionKey: c8c945bf-c6d8-4e73-b1b0-d886bf9c1f86, RemoteEndPoint: 127.0.0.1:1553
+The socket session has been closed for 338.558 timeout!
+2011-02-05 05:15:29,553 [8] INFO  SuperWebSocket - SocketSession c8c945bf-c6d8-4e73-b1b0-d886bf9c1f86 was closed!
+2011-02-05 05:15:29,558 [8] INFO  SuperWebSocket - SessionID: 0fa2d7f9-a521-47e9-badf-18c08fe416df, SessionKey: 0fa2d7f9-a521-47e9-badf-18c08fe416df, RemoteEndPoint: 127.0.0.1:1561
+The socket session has been closed for 330.617 timeout!
+2011-02-05 05:15:29,560 [8] INFO  SuperWebSocket - SocketSession 0fa2d7f9-a521-47e9-badf-18c08fe416df was closed!
+2011-02-05 05:17:29,556 [13] INFO  SuperWebSocket - SessionID: 8c76fd24-c433-4778-891f-73e1aee6b9ec, SessionKey: 8c76fd24-c433-4778-891f-73e1aee6b9ec, RemoteEndPoint: 127.0.0.1:1572
+The socket session has been closed for 379.627 timeout!
+2011-02-05 05:17:29,557 [13] INFO  SuperWebSocket - SocketSession 8c76fd24-c433-4778-891f-73e1aee6b9ec was closed!
+2011-02-05 05:20:53,462 [14] INFO  SuperWebSocket - SessionID: 16378df6-5ef7-4320-a4cc-eaeeb3f44c9c, SessionKey: 16378df6-5ef7-4320-a4cc-eaeeb3f44c9c, RemoteEndPoint: 127.0.0.1:1585
+New SocketSession was accepted!
+2011-02-05 05:20:57,424 [16] INFO  SuperWebSocket - SocketSession 16378df6-5ef7-4320-a4cc-eaeeb3f44c9c was closed!
+2011-02-05 05:33:58,729 [14] INFO  SuperWebSocket - SessionID: c478e22d-db28-4b00-8744-d4bda1955d7e, SessionKey: c478e22d-db28-4b00-8744-d4bda1955d7e, RemoteEndPoint: 127.0.0.1:1603
+New SocketSession was accepted!
+2011-02-05 05:34:01,502 [23] INFO  SuperWebSocket - SocketSession c478e22d-db28-4b00-8744-d4bda1955d7e was closed!
+2011-02-05 05:34:01,610 [14] INFO  SuperWebSocket - SessionID: 766c3dd5-2abd-49e7-b93a-830ef536b082, SessionKey: 766c3dd5-2abd-49e7-b93a-830ef536b082, RemoteEndPoint: 127.0.0.1:1613
+New SocketSession was accepted!
+2011-02-05 05:34:32,908 [24] INFO  SuperWebSocket - SocketSession 766c3dd5-2abd-49e7-b93a-830ef536b082 was closed!
+2011-02-05 05:34:43,340 [14] INFO  SuperWebSocket - SessionID: c1afea68-9117-495e-bbd0-fe57155987f9, SessionKey: c1afea68-9117-495e-bbd0-fe57155987f9, RemoteEndPoint: 127.0.0.1:1630
+New SocketSession was accepted!
+2011-02-05 05:34:50,423 [14] INFO  SuperWebSocket - SessionID: 7c4a2f4e-a75e-4242-ab3a-60fc9e98b877, SessionKey: 7c4a2f4e-a75e-4242-ab3a-60fc9e98b877, RemoteEndPoint: 127.0.0.1:1640
+New SocketSession was accepted!
+2011-02-05 05:35:23,815 [16] INFO  SuperWebSocket - SocketSession 7c4a2f4e-a75e-4242-ab3a-60fc9e98b877 was closed!
+2011-02-05 05:35:24,793 [23] INFO  SuperWebSocket - SocketSession c1afea68-9117-495e-bbd0-fe57155987f9 was closed!
+2011-02-05 09:43:21,913 [171] INFO  SuperSocket - SuperWebSocket has been stopped

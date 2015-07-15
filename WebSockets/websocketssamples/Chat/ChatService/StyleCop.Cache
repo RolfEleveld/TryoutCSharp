@@ -1,0 +1,60 @@
+<stylecopresultscache>
+  <version>10</version>
+  <sourcecode name="GlobalSuppressions.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>04/28/2011 16:23:49</timestamp>
+      <milliseconds>124</milliseconds>
+    </settings>
+    <timestamp>04/28/2011 16:25:05</timestamp>
+    <milliseconds>970</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Program.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>04/28/2011 16:23:49</timestamp>
+      <milliseconds>124</milliseconds>
+    </settings>
+    <timestamp>04/28/2011 16:25:05</timestamp>
+    <milliseconds>974</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="AssemblyInfo.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>04/28/2011 16:23:49</timestamp>
+      <milliseconds>124</milliseconds>
+    </settings>
+    <timestamp>04/28/2011 16:25:05</timestamp>
+    <milliseconds>976</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="ChatSessions.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>04/28/2011 16:23:49</timestamp>
+      <milliseconds>124</milliseconds>
+    </settings>
+    <timestamp>04/28/2011 16:25:05</timestamp>
+    <milliseconds>961</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="ServiceCollection.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>04/28/2011 16:23:49</timestamp>
+      <milliseconds>124</milliseconds>
+    </settings>
+    <timestamp>04/28/2011 16:25:05</timestamp>
+    <milliseconds>980</milliseconds>
+    <violations />
+  </sourcecode>
+  <project key="1519908778">
+    <configuration>TRACE</configuration>
+  </project>
+  <sourcecode name="Chat.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>04/28/2011 16:23:49</timestamp>
+      <milliseconds>124</milliseconds>
+    </settings>
+    <timestamp>05/05/2011 13:38:49</timestamp>
+    <milliseconds>66</milliseconds>
+    <violations />
+  </sourcecode>
+</stylecopresultscache>

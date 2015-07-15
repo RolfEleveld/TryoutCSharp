@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+       <ellipse id="ellipse" cx="135" cy="153" rx="40" ry="110" 
+           fill="none" stroke="#000" stroke-width="3"/>
+       <circle cx="135" cy="155" r="10" stroke="#000" 
+           stroke-width="5" fill="#000"/>
+       <use xlink:href="# ellipse " transform="rotate(60 135,153)"/>
+       <use xlink:href="# ellipse " transform="rotate(-60 135,153)"/>
+</svg>

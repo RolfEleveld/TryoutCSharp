@@ -1,0 +1,12 @@
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\build\Debug\WebSockets\web\chat\css\html5demos.css
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\build\Debug\WebSockets\web\chat\js\h5utils.js
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\build\Debug\WebSockets\web\chat\js\jquery.slws.js
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\build\Debug\WebSockets\web\chat\js\json2.js
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\build\Debug\WebSockets\web\chat\js\Silverlight.js
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\build\Debug\WebSockets\web\chat\wsdemo.html
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\build\Debug\WebSockets\web\chat\wsdemo_nativewebsocket.html
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\build\Debug\WebSockets\web\chat\ChatClient.dll
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\build\Debug\WebSockets\web\chat\ChatClient.pdb
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\Chat\ChatClient\obj\Debug\ChatClient.csprojResolveAssemblyReference.cache
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\Chat\ChatClient\obj\Debug\ChatClient.dll
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\Chat\ChatClient\obj\Debug\ChatClient.pdb

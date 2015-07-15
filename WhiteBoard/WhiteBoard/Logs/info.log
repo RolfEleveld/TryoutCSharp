@@ -1,0 +1,7 @@
+2012-01-17 22:45:55,695 [6] INFO  SuperSocket - SuperWebSocket has been started
+2012-01-17 22:45:55,800 [6] INFO  SuperSocket - SecureSuperWebSocket has been started
+2012-01-17 22:46:58,297 [15] INFO  SuperWebSocket - SessionID: f88329bc-d345-4549-9eab-e02827a14dca, SessionKey: f88329bc-d345-4549-9eab-e02827a14dca, RemoteEndPoint: 127.0.0.1:7586
+New SocketSession was accepted!
+2012-01-17 22:47:11,158 [10] INFO  SuperWebSocket - SocketSession f88329bc-d345-4549-9eab-e02827a14dca was closed!
+2012-01-17 22:49:18,657 [13] INFO  SuperSocket - SuperWebSocket has been stopped
+2012-01-17 22:49:18,760 [13] INFO  SuperSocket - SecureSuperWebSocket has been stopped

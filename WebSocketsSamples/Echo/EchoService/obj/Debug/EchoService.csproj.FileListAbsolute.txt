@@ -1,0 +1,12 @@
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\build\Debug\WebSockets\bin\EchoService.exe.config
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\build\Debug\WebSockets\bin\EchoService.exe
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\build\Debug\WebSockets\bin\EchoService.pdb
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\Echo\EchoService\obj\Debug\EchoService.csprojResolveAssemblyReference.cache
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\Echo\EchoService\obj\Debug\EchoService.exe
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\Echo\EchoService\obj\Debug\EchoService.pdb
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\Echo\build\EchoService.exe.config
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\Echo\build\EchoService.exe
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\Echo\build\EchoService.pdb
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\build\EchoService.exe.config
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\build\EchoService.exe
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\build\EchoService.pdb

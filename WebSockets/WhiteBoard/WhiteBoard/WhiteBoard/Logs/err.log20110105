@@ -1,0 +1,811 @@
+2011-01-05 08:32:30,372 [16] ERROR SuperWebSocket - SessionID: 4c9c0908-cbb3-4870-ad9d-3ea228a83eef, SessionKey: 4c9c0908-cbb3-4870-ad9d-3ea228a83eef, RemoteEndPoint: 127.0.0.1:13418
+2011-01-05 08:34:07,866 [19] ERROR SuperWebSocket - SessionID: 16076169-e53c-48cb-9e04-9035230f90c7, SessionKey: 16076169-e53c-48cb-9e04-9035230f90c7, RemoteEndPoint: 127.0.0.1:13461
+2011-01-05 09:27:23,077 [20] ERROR SuperWebSocket - SessionID: 1081f37e-768b-46e2-ac62-41e034dc3d65, SessionKey: 1081f37e-768b-46e2-ac62-41e034dc3d65, RemoteEndPoint: 127.0.0.1:14054
+System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   at System.Text.StringBuilder.AppendFormat(String format, Object arg0, Object arg1, Object arg2)
+   at SuperWebSocket.SuperWebSocketInitializer.buildJSONMessage(String message, String type, WebSocketSession session) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 180
+   at SuperWebSocket.SuperWebSocketInitializer.socketServer_NewSessionConnected(WebSocketSession session) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 132
+   at SuperWebSocket.WebSocketServer.ExecuteCommand(WebSocketSession session, WebSocketCommandInfo commandInfo) in E:\SuperWebSocket Drop 3\SuperWebSocket\WebSocketServer.cs:line 255
+   at SuperSocket.SocketBase.AppSession`2.ExecuteCommand(TAppSession session, TCommandInfo cmdInfo) in E:\Workshop\SuperSocket\mainline\SocketBase\AppSession.cs:line 56
+   at SuperSocket.SocketEngine.SocketSession`2.ExecuteCommand(TCommandInfo commandInfo) in E:\Workshop\SuperSocket\mainline\SocketEngine\SocketSession.cs:line 104
+   at SuperSocket.SocketEngine.SyncSocketSession`2.Start() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 66
+2011-01-05 09:27:25,745 [20] ERROR SuperWebSocket - SessionID: 1081f37e-768b-46e2-ac62-41e034dc3d65, SessionKey: 1081f37e-768b-46e2-ac62-41e034dc3d65, RemoteEndPoint: 127.0.0.1:14054
+System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   at System.Text.StringBuilder.AppendFormat(String format, Object arg0, Object arg1, Object arg2)
+   at SuperWebSocket.SuperWebSocketInitializer.buildJSONMessage(String message, String type, WebSocketSession session) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 180
+   at SuperWebSocket.SuperWebSocketInitializer.socketServer_SessionClosed(WebSocketSession session, CloseReason reason) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 144
+   at SuperWebSocket.WebSocketServer.OnSocketSessionClosed(Object sender, SocketSessionClosedEventArgs e) in E:\SuperWebSocket Drop 3\SuperWebSocket\WebSocketServer.cs:line 323
+   at System.EventHandler`1.Invoke(Object sender, TEventArgs e)
+   at SuperSocket.SocketEngine.SocketSession`2.OnClose(CloseReason reason) in E:\Workshop\SuperSocket\mainline\SocketEngine\SocketSession.cs:line 144
+   at SuperSocket.SocketEngine.SocketSession`2.Close(CloseReason reason) in E:\Workshop\SuperSocket\mainline\SocketEngine\SocketSession.cs:line 247
+   at SuperSocket.SocketEngine.SyncSocketSession`2.Close(CloseReason reason) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 95
+   at SuperSocket.SocketEngine.SyncSocketSession`2.TryGetCommand(TCommandInfo& commandInfo) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 140
+2011-01-05 09:27:27,778 [21] ERROR SuperWebSocket - SessionID: 44d78020-bd4d-406a-8cc9-370a846e161b, SessionKey: 44d78020-bd4d-406a-8cc9-370a846e161b, RemoteEndPoint: 127.0.0.1:14067
+System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   at System.Text.StringBuilder.AppendFormat(String format, Object arg0, Object arg1, Object arg2)
+   at SuperWebSocket.SuperWebSocketInitializer.buildJSONMessage(String message, String type, WebSocketSession session) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 180
+   at SuperWebSocket.SuperWebSocketInitializer.socketServer_NewSessionConnected(WebSocketSession session) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 132
+   at SuperWebSocket.WebSocketServer.ExecuteCommand(WebSocketSession session, WebSocketCommandInfo commandInfo) in E:\SuperWebSocket Drop 3\SuperWebSocket\WebSocketServer.cs:line 255
+   at SuperSocket.SocketBase.AppSession`2.ExecuteCommand(TAppSession session, TCommandInfo cmdInfo) in E:\Workshop\SuperSocket\mainline\SocketBase\AppSession.cs:line 56
+   at SuperSocket.SocketEngine.SocketSession`2.ExecuteCommand(TCommandInfo commandInfo) in E:\Workshop\SuperSocket\mainline\SocketEngine\SocketSession.cs:line 104
+   at SuperSocket.SocketEngine.SyncSocketSession`2.Start() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 66
+2011-01-05 09:27:36,536 [21] ERROR SuperWebSocket - SessionID: 44d78020-bd4d-406a-8cc9-370a846e161b, SessionKey: 44d78020-bd4d-406a-8cc9-370a846e161b, RemoteEndPoint: 127.0.0.1:14067
+System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   at System.Text.StringBuilder.AppendFormat(String format, Object arg0, Object arg1, Object arg2)
+   at SuperWebSocket.SuperWebSocketInitializer.buildJSONMessage(String message, String type, WebSocketSession session) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 180
+   at SuperWebSocket.SuperWebSocketInitializer.socketServer_CommandHandler(WebSocketSession session, WebSocketCommandInfo commandInfo) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 172
+   at SuperSocket.SocketBase.AppServer`2.ExecuteCommand(TAppSession session, TCommandInfo commandInfo) in E:\Workshop\SuperSocket\mainline\SocketBase\AppServer.cs:line 483
+   at SuperWebSocket.WebSocketServer.ExecuteCommand(WebSocketSession session, WebSocketCommandInfo commandInfo) in E:\SuperWebSocket Drop 3\SuperWebSocket\WebSocketServer.cs:line 265
+   at SuperSocket.SocketBase.AppSession`2.ExecuteCommand(TAppSession session, TCommandInfo cmdInfo) in E:\Workshop\SuperSocket\mainline\SocketBase\AppSession.cs:line 56
+   at SuperSocket.SocketEngine.SocketSession`2.ExecuteCommand(TCommandInfo commandInfo) in E:\Workshop\SuperSocket\mainline\SocketEngine\SocketSession.cs:line 104
+   at SuperSocket.SocketEngine.SyncSocketSession`2.Start() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 66
+2011-01-05 09:29:09,274 [21] ERROR SuperWebSocket - SessionID: 44d78020-bd4d-406a-8cc9-370a846e161b, SessionKey: 44d78020-bd4d-406a-8cc9-370a846e161b, RemoteEndPoint: 127.0.0.1:14067
+System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   at System.Text.StringBuilder.AppendFormat(String format, Object arg0, Object arg1, Object arg2)
+   at SuperWebSocket.SuperWebSocketInitializer.buildJSONMessage(String message, String type, WebSocketSession session) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 180
+   at SuperWebSocket.SuperWebSocketInitializer.socketServer_CommandHandler(WebSocketSession session, WebSocketCommandInfo commandInfo) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 172
+   at SuperSocket.SocketBase.AppServer`2.ExecuteCommand(TAppSession session, TCommandInfo commandInfo) in E:\Workshop\SuperSocket\mainline\SocketBase\AppServer.cs:line 483
+   at SuperWebSocket.WebSocketServer.ExecuteCommand(WebSocketSession session, WebSocketCommandInfo commandInfo) in E:\SuperWebSocket Drop 3\SuperWebSocket\WebSocketServer.cs:line 265
+   at SuperSocket.SocketBase.AppSession`2.ExecuteCommand(TAppSession session, TCommandInfo cmdInfo) in E:\Workshop\SuperSocket\mainline\SocketBase\AppSession.cs:line 56
+   at SuperSocket.SocketEngine.SocketSession`2.ExecuteCommand(TCommandInfo commandInfo) in E:\Workshop\SuperSocket\mainline\SocketEngine\SocketSession.cs:line 104
+   at SuperSocket.SocketEngine.SyncSocketSession`2.Start() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 66
+2011-01-05 09:29:11,439 [21] ERROR SuperWebSocket - SessionID: 44d78020-bd4d-406a-8cc9-370a846e161b, SessionKey: 44d78020-bd4d-406a-8cc9-370a846e161b, RemoteEndPoint: 127.0.0.1:14067
+System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   at System.Text.StringBuilder.AppendFormat(String format, Object arg0, Object arg1, Object arg2)
+   at SuperWebSocket.SuperWebSocketInitializer.buildJSONMessage(String message, String type, WebSocketSession session) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 180
+   at SuperWebSocket.SuperWebSocketInitializer.socketServer_SessionClosed(WebSocketSession session, CloseReason reason) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 144
+   at SuperWebSocket.WebSocketServer.OnSocketSessionClosed(Object sender, SocketSessionClosedEventArgs e) in E:\SuperWebSocket Drop 3\SuperWebSocket\WebSocketServer.cs:line 323
+   at System.EventHandler`1.Invoke(Object sender, TEventArgs e)
+   at SuperSocket.SocketEngine.SocketSession`2.OnClose(CloseReason reason) in E:\Workshop\SuperSocket\mainline\SocketEngine\SocketSession.cs:line 144
+   at SuperSocket.SocketEngine.SocketSession`2.Close(CloseReason reason) in E:\Workshop\SuperSocket\mainline\SocketEngine\SocketSession.cs:line 247
+   at SuperSocket.SocketEngine.SyncSocketSession`2.Close(CloseReason reason) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 95
+   at SuperSocket.SocketEngine.SyncSocketSession`2.TryGetCommand(TCommandInfo& commandInfo) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 140
+2011-01-05 09:29:13,481 [20] ERROR SuperWebSocket - SessionID: d93154b8-d43f-4d4f-b98d-bba98c49d621, SessionKey: d93154b8-d43f-4d4f-b98d-bba98c49d621, RemoteEndPoint: 127.0.0.1:14095
+System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   at System.Text.StringBuilder.AppendFormat(String format, Object arg0, Object arg1, Object arg2)
+   at SuperWebSocket.SuperWebSocketInitializer.buildJSONMessage(String message, String type, WebSocketSession session) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 180
+   at SuperWebSocket.SuperWebSocketInitializer.socketServer_NewSessionConnected(WebSocketSession session) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 132
+   at SuperWebSocket.WebSocketServer.ExecuteCommand(WebSocketSession session, WebSocketCommandInfo commandInfo) in E:\SuperWebSocket Drop 3\SuperWebSocket\WebSocketServer.cs:line 255
+   at SuperSocket.SocketBase.AppSession`2.ExecuteCommand(TAppSession session, TCommandInfo cmdInfo) in E:\Workshop\SuperSocket\mainline\SocketBase\AppSession.cs:line 56
+   at SuperSocket.SocketEngine.SocketSession`2.ExecuteCommand(TCommandInfo commandInfo) in E:\Workshop\SuperSocket\mainline\SocketEngine\SocketSession.cs:line 104
+   at SuperSocket.SocketEngine.SyncSocketSession`2.Start() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 66
+2011-01-05 09:29:16,735 [20] ERROR SuperWebSocket - SessionID: d93154b8-d43f-4d4f-b98d-bba98c49d621, SessionKey: d93154b8-d43f-4d4f-b98d-bba98c49d621, RemoteEndPoint: 127.0.0.1:14095
+System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   at System.Text.StringBuilder.AppendFormat(String format, Object arg0, Object arg1, Object arg2)
+   at SuperWebSocket.SuperWebSocketInitializer.buildJSONMessage(String message, String type, WebSocketSession session) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 180
+   at SuperWebSocket.SuperWebSocketInitializer.socketServer_CommandHandler(WebSocketSession session, WebSocketCommandInfo commandInfo) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 172
+   at SuperSocket.SocketBase.AppServer`2.ExecuteCommand(TAppSession session, TCommandInfo commandInfo) in E:\Workshop\SuperSocket\mainline\SocketBase\AppServer.cs:line 483
+   at SuperWebSocket.WebSocketServer.ExecuteCommand(WebSocketSession session, WebSocketCommandInfo commandInfo) in E:\SuperWebSocket Drop 3\SuperWebSocket\WebSocketServer.cs:line 265
+   at SuperSocket.SocketBase.AppSession`2.ExecuteCommand(TAppSession session, TCommandInfo cmdInfo) in E:\Workshop\SuperSocket\mainline\SocketBase\AppSession.cs:line 56
+   at SuperSocket.SocketEngine.SocketSession`2.ExecuteCommand(TCommandInfo commandInfo) in E:\Workshop\SuperSocket\mainline\SocketEngine\SocketSession.cs:line 104
+   at SuperSocket.SocketEngine.SyncSocketSession`2.Start() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 66
+2011-01-05 09:30:16,718 [20] ERROR SuperWebSocket - SessionID: d93154b8-d43f-4d4f-b98d-bba98c49d621, SessionKey: d93154b8-d43f-4d4f-b98d-bba98c49d621, RemoteEndPoint: 127.0.0.1:14095
+System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   at System.Text.StringBuilder.AppendFormat(String format, Object arg0, Object arg1, Object arg2)
+   at SuperWebSocket.SuperWebSocketInitializer.buildJSONMessage(String message, String type, WebSocketSession session) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 180
+   at SuperWebSocket.SuperWebSocketInitializer.socketServer_SessionClosed(WebSocketSession session, CloseReason reason) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 144
+   at SuperWebSocket.WebSocketServer.OnSocketSessionClosed(Object sender, SocketSessionClosedEventArgs e) in E:\SuperWebSocket Drop 3\SuperWebSocket\WebSocketServer.cs:line 323
+   at System.EventHandler`1.Invoke(Object sender, TEventArgs e)
+   at SuperSocket.SocketEngine.SocketSession`2.OnClose(CloseReason reason) in E:\Workshop\SuperSocket\mainline\SocketEngine\SocketSession.cs:line 144
+   at SuperSocket.SocketEngine.SocketSession`2.Close(CloseReason reason) in E:\Workshop\SuperSocket\mainline\SocketEngine\SocketSession.cs:line 247
+   at SuperSocket.SocketEngine.SyncSocketSession`2.Close(CloseReason reason) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 95
+   at SuperSocket.SocketEngine.SyncSocketSession`2.TryGetCommand(TCommandInfo& commandInfo) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 140
+2011-01-05 09:30:18,775 [22] ERROR SuperWebSocket - SessionID: fa7e03e0-f430-4abc-a58d-2b03cecce463, SessionKey: fa7e03e0-f430-4abc-a58d-2b03cecce463, RemoteEndPoint: 127.0.0.1:14114
+System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   at System.Text.StringBuilder.AppendFormat(String format, Object arg0, Object arg1, Object arg2)
+   at SuperWebSocket.SuperWebSocketInitializer.buildJSONMessage(String message, String type, WebSocketSession session) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 180
+   at SuperWebSocket.SuperWebSocketInitializer.socketServer_NewSessionConnected(WebSocketSession session) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 132
+   at SuperWebSocket.WebSocketServer.ExecuteCommand(WebSocketSession session, WebSocketCommandInfo commandInfo) in E:\SuperWebSocket Drop 3\SuperWebSocket\WebSocketServer.cs:line 255
+   at SuperSocket.SocketBase.AppSession`2.ExecuteCommand(TAppSession session, TCommandInfo cmdInfo) in E:\Workshop\SuperSocket\mainline\SocketBase\AppSession.cs:line 56
+   at SuperSocket.SocketEngine.SocketSession`2.ExecuteCommand(TCommandInfo commandInfo) in E:\Workshop\SuperSocket\mainline\SocketEngine\SocketSession.cs:line 104
+   at SuperSocket.SocketEngine.SyncSocketSession`2.Start() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 66
+2011-01-05 09:30:19,848 [22] ERROR SuperWebSocket - SessionID: fa7e03e0-f430-4abc-a58d-2b03cecce463, SessionKey: fa7e03e0-f430-4abc-a58d-2b03cecce463, RemoteEndPoint: 127.0.0.1:14114
+System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   at System.Text.StringBuilder.AppendFormat(String format, Object arg0, Object arg1, Object arg2)
+   at SuperWebSocket.SuperWebSocketInitializer.buildJSONMessage(String message, String type, WebSocketSession session) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 180
+   at SuperWebSocket.SuperWebSocketInitializer.socketServer_CommandHandler(WebSocketSession session, WebSocketCommandInfo commandInfo) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 172
+   at SuperSocket.SocketBase.AppServer`2.ExecuteCommand(TAppSession session, TCommandInfo commandInfo) in E:\Workshop\SuperSocket\mainline\SocketBase\AppServer.cs:line 483
+   at SuperWebSocket.WebSocketServer.ExecuteCommand(WebSocketSession session, WebSocketCommandInfo commandInfo) in E:\SuperWebSocket Drop 3\SuperWebSocket\WebSocketServer.cs:line 265
+   at SuperSocket.SocketBase.AppSession`2.ExecuteCommand(TAppSession session, TCommandInfo cmdInfo) in E:\Workshop\SuperSocket\mainline\SocketBase\AppSession.cs:line 56
+   at SuperSocket.SocketEngine.SocketSession`2.ExecuteCommand(TCommandInfo commandInfo) in E:\Workshop\SuperSocket\mainline\SocketEngine\SocketSession.cs:line 104
+   at SuperSocket.SocketEngine.SyncSocketSession`2.Start() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 66
+2011-01-05 09:30:52,755 [22] ERROR SuperWebSocket - SessionID: fa7e03e0-f430-4abc-a58d-2b03cecce463, SessionKey: fa7e03e0-f430-4abc-a58d-2b03cecce463, RemoteEndPoint: 127.0.0.1:14114
+System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   at System.Text.StringBuilder.AppendFormat(String format, Object arg0, Object arg1, Object arg2)
+   at SuperWebSocket.SuperWebSocketInitializer.buildJSONMessage(String message, String type, WebSocketSession session) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 180
+   at SuperWebSocket.SuperWebSocketInitializer.socketServer_SessionClosed(WebSocketSession session, CloseReason reason) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 144
+   at SuperWebSocket.WebSocketServer.OnSocketSessionClosed(Object sender, SocketSessionClosedEventArgs e) in E:\SuperWebSocket Drop 3\SuperWebSocket\WebSocketServer.cs:line 323
+   at System.EventHandler`1.Invoke(Object sender, TEventArgs e)
+   at SuperSocket.SocketEngine.SocketSession`2.OnClose(CloseReason reason) in E:\Workshop\SuperSocket\mainline\SocketEngine\SocketSession.cs:line 144
+   at SuperSocket.SocketEngine.SocketSession`2.Close(CloseReason reason) in E:\Workshop\SuperSocket\mainline\SocketEngine\SocketSession.cs:line 247
+   at SuperSocket.SocketEngine.SyncSocketSession`2.Close(CloseReason reason) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 95
+   at SuperSocket.SocketEngine.SyncSocketSession`2.TryGetCommand(TCommandInfo& commandInfo) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 140
+2011-01-05 09:30:54,881 [20] ERROR SuperWebSocket - SessionID: 59266722-3adf-48b1-830a-b7583bd80d3c, SessionKey: 59266722-3adf-48b1-830a-b7583bd80d3c, RemoteEndPoint: 127.0.0.1:14138
+System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   at System.Text.StringBuilder.AppendFormat(String format, Object arg0, Object arg1, Object arg2)
+   at SuperWebSocket.SuperWebSocketInitializer.buildJSONMessage(String message, String type, WebSocketSession session) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 180
+   at SuperWebSocket.SuperWebSocketInitializer.socketServer_NewSessionConnected(WebSocketSession session) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 132
+   at SuperWebSocket.WebSocketServer.ExecuteCommand(WebSocketSession session, WebSocketCommandInfo commandInfo) in E:\SuperWebSocket Drop 3\SuperWebSocket\WebSocketServer.cs:line 255
+   at SuperSocket.SocketBase.AppSession`2.ExecuteCommand(TAppSession session, TCommandInfo cmdInfo) in E:\Workshop\SuperSocket\mainline\SocketBase\AppSession.cs:line 56
+   at SuperSocket.SocketEngine.SocketSession`2.ExecuteCommand(TCommandInfo commandInfo) in E:\Workshop\SuperSocket\mainline\SocketEngine\SocketSession.cs:line 104
+   at SuperSocket.SocketEngine.SyncSocketSession`2.Start() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 66
+2011-01-05 09:30:57,570 [20] ERROR SuperWebSocket - SessionID: 59266722-3adf-48b1-830a-b7583bd80d3c, SessionKey: 59266722-3adf-48b1-830a-b7583bd80d3c, RemoteEndPoint: 127.0.0.1:14138
+System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   at System.Text.StringBuilder.AppendFormat(String format, Object arg0, Object arg1, Object arg2)
+   at SuperWebSocket.SuperWebSocketInitializer.buildJSONMessage(String message, String type, WebSocketSession session) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 180
+   at SuperWebSocket.SuperWebSocketInitializer.socketServer_CommandHandler(WebSocketSession session, WebSocketCommandInfo commandInfo) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 172
+   at SuperSocket.SocketBase.AppServer`2.ExecuteCommand(TAppSession session, TCommandInfo commandInfo) in E:\Workshop\SuperSocket\mainline\SocketBase\AppServer.cs:line 483
+   at SuperWebSocket.WebSocketServer.ExecuteCommand(WebSocketSession session, WebSocketCommandInfo commandInfo) in E:\SuperWebSocket Drop 3\SuperWebSocket\WebSocketServer.cs:line 265
+   at SuperSocket.SocketBase.AppSession`2.ExecuteCommand(TAppSession session, TCommandInfo cmdInfo) in E:\Workshop\SuperSocket\mainline\SocketBase\AppSession.cs:line 56
+   at SuperSocket.SocketEngine.SocketSession`2.ExecuteCommand(TCommandInfo commandInfo) in E:\Workshop\SuperSocket\mainline\SocketEngine\SocketSession.cs:line 104
+   at SuperSocket.SocketEngine.SyncSocketSession`2.Start() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 66
+2011-01-05 09:31:03,361 [20] ERROR SuperWebSocket - SessionID: 59266722-3adf-48b1-830a-b7583bd80d3c, SessionKey: 59266722-3adf-48b1-830a-b7583bd80d3c, RemoteEndPoint: 127.0.0.1:14138
+System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   at System.Text.StringBuilder.AppendFormat(String format, Object arg0, Object arg1, Object arg2)
+   at SuperWebSocket.SuperWebSocketInitializer.buildJSONMessage(String message, String type, WebSocketSession session) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 180
+   at SuperWebSocket.SuperWebSocketInitializer.socketServer_CommandHandler(WebSocketSession session, WebSocketCommandInfo commandInfo) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 172
+   at SuperSocket.SocketBase.AppServer`2.ExecuteCommand(TAppSession session, TCommandInfo commandInfo) in E:\Workshop\SuperSocket\mainline\SocketBase\AppServer.cs:line 483
+   at SuperWebSocket.WebSocketServer.ExecuteCommand(WebSocketSession session, WebSocketCommandInfo commandInfo) in E:\SuperWebSocket Drop 3\SuperWebSocket\WebSocketServer.cs:line 265
+   at SuperSocket.SocketBase.AppSession`2.ExecuteCommand(TAppSession session, TCommandInfo cmdInfo) in E:\Workshop\SuperSocket\mainline\SocketBase\AppSession.cs:line 56
+   at SuperSocket.SocketEngine.SocketSession`2.ExecuteCommand(TCommandInfo commandInfo) in E:\Workshop\SuperSocket\mainline\SocketEngine\SocketSession.cs:line 104
+   at SuperSocket.SocketEngine.SyncSocketSession`2.Start() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 66
+2011-01-05 09:31:58,664 [10] ERROR SuperWebSocket - SessionID: f9a260dd-4ee4-40bb-b46c-32c950641b9e, SessionKey: f9a260dd-4ee4-40bb-b46c-32c950641b9e, RemoteEndPoint: 127.0.0.1:14156
+System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   at System.Text.StringBuilder.AppendFormat(String format, Object arg0, Object arg1, Object arg2)
+   at SuperWebSocket.SuperWebSocketInitializer.buildJSONMessage(String message, String type, WebSocketSession session) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 180
+   at SuperWebSocket.SuperWebSocketInitializer.socketServer_NewSessionConnected(WebSocketSession session) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 132
+   at SuperWebSocket.WebSocketServer.ExecuteCommand(WebSocketSession session, WebSocketCommandInfo commandInfo) in E:\SuperWebSocket Drop 3\SuperWebSocket\WebSocketServer.cs:line 255
+   at SuperSocket.SocketBase.AppSession`2.ExecuteCommand(TAppSession session, TCommandInfo cmdInfo) in E:\Workshop\SuperSocket\mainline\SocketBase\AppSession.cs:line 56
+   at SuperSocket.SocketEngine.SocketSession`2.ExecuteCommand(TCommandInfo commandInfo) in E:\Workshop\SuperSocket\mainline\SocketEngine\SocketSession.cs:line 104
+   at SuperSocket.SocketEngine.SyncSocketSession`2.Start() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 66
+2011-01-05 09:33:29,852 [10] ERROR SuperWebSocket - SessionID: f9a260dd-4ee4-40bb-b46c-32c950641b9e, SessionKey: f9a260dd-4ee4-40bb-b46c-32c950641b9e, RemoteEndPoint: 127.0.0.1:14156
+System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   at System.Text.StringBuilder.AppendFormat(String format, Object arg0, Object arg1, Object arg2)
+   at SuperWebSocket.SuperWebSocketInitializer.buildJSONMessage(String message, String type, WebSocketSession session) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 180
+   at SuperWebSocket.SuperWebSocketInitializer.socketServer_CommandHandler(WebSocketSession session, WebSocketCommandInfo commandInfo) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 172
+   at SuperSocket.SocketBase.AppServer`2.ExecuteCommand(TAppSession session, TCommandInfo commandInfo) in E:\Workshop\SuperSocket\mainline\SocketBase\AppServer.cs:line 483
+   at SuperWebSocket.WebSocketServer.ExecuteCommand(WebSocketSession session, WebSocketCommandInfo commandInfo) in E:\SuperWebSocket Drop 3\SuperWebSocket\WebSocketServer.cs:line 265
+   at SuperSocket.SocketBase.AppSession`2.ExecuteCommand(TAppSession session, TCommandInfo cmdInfo) in E:\Workshop\SuperSocket\mainline\SocketBase\AppSession.cs:line 56
+   at SuperSocket.SocketEngine.SocketSession`2.ExecuteCommand(TCommandInfo commandInfo) in E:\Workshop\SuperSocket\mainline\SocketEngine\SocketSession.cs:line 104
+   at SuperSocket.SocketEngine.SyncSocketSession`2.Start() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 66
+2011-01-05 09:33:58,082 [13] ERROR SuperWebSocket - System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at SuperSocket.SocketEngine.SyncSocketServer`2.StartListen() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketServer.cs:line 77
+2011-01-05 09:33:58,104 [4] ERROR SuperSocket - Failed to start SuperWebSocket server!
+2011-01-05 09:33:58,127 [14] ERROR SecureSuperWebSocket - System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at SuperSocket.SocketEngine.SyncSocketServer`2.StartListen() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketServer.cs:line 77
+2011-01-05 09:33:58,127 [4] ERROR SuperSocket - Failed to start SecureSuperWebSocket server!
+2011-01-05 09:35:18,163 [10] ERROR SuperWebSocket - SessionID: 08535a0f-5f8f-4578-8d66-a5d78ac517be, SessionKey: 08535a0f-5f8f-4578-8d66-a5d78ac517be, RemoteEndPoint: 127.0.0.1:14221
+System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   at System.Text.StringBuilder.AppendFormat(String format, Object arg0, Object arg1, Object arg2)
+   at SuperWebSocket.SuperWebSocketInitializer.buildJSONMessage(String message, String type, WebSocketSession session) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 180
+   at SuperWebSocket.SuperWebSocketInitializer.socketServer_NewSessionConnected(WebSocketSession session) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 132
+   at SuperWebSocket.WebSocketServer.ExecuteCommand(WebSocketSession session, WebSocketCommandInfo commandInfo) in E:\SuperWebSocket Drop 3\SuperWebSocket\WebSocketServer.cs:line 255
+   at SuperSocket.SocketBase.AppSession`2.ExecuteCommand(TAppSession session, TCommandInfo cmdInfo) in E:\Workshop\SuperSocket\mainline\SocketBase\AppSession.cs:line 56
+   at SuperSocket.SocketEngine.SocketSession`2.ExecuteCommand(TCommandInfo commandInfo) in E:\Workshop\SuperSocket\mainline\SocketEngine\SocketSession.cs:line 104
+   at SuperSocket.SocketEngine.SyncSocketSession`2.Start() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 66
+2011-01-05 09:35:46,973 [10] ERROR SuperWebSocket - SessionID: 08535a0f-5f8f-4578-8d66-a5d78ac517be, SessionKey: 08535a0f-5f8f-4578-8d66-a5d78ac517be, RemoteEndPoint: 127.0.0.1:14221
+System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   at System.Text.StringBuilder.AppendFormat(String format, Object arg0, Object arg1, Object arg2)
+   at SuperWebSocket.SuperWebSocketInitializer.buildJSONMessage(String message, String type, WebSocketSession session) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 180
+   at SuperWebSocket.SuperWebSocketInitializer.socketServer_CommandHandler(WebSocketSession session, WebSocketCommandInfo commandInfo) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 172
+   at SuperSocket.SocketBase.AppServer`2.ExecuteCommand(TAppSession session, TCommandInfo commandInfo) in E:\Workshop\SuperSocket\mainline\SocketBase\AppServer.cs:line 483
+   at SuperWebSocket.WebSocketServer.ExecuteCommand(WebSocketSession session, WebSocketCommandInfo commandInfo) in E:\SuperWebSocket Drop 3\SuperWebSocket\WebSocketServer.cs:line 265
+   at SuperSocket.SocketBase.AppSession`2.ExecuteCommand(TAppSession session, TCommandInfo cmdInfo) in E:\Workshop\SuperSocket\mainline\SocketBase\AppSession.cs:line 56
+   at SuperSocket.SocketEngine.SocketSession`2.ExecuteCommand(TCommandInfo commandInfo) in E:\Workshop\SuperSocket\mainline\SocketEngine\SocketSession.cs:line 104
+   at SuperSocket.SocketEngine.SyncSocketSession`2.Start() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 66
+2011-01-05 09:36:17,454 [13] ERROR SuperWebSocket - SessionID: e5d5ad5a-f711-499b-a736-ec252f734483, SessionKey: e5d5ad5a-f711-499b-a736-ec252f734483, RemoteEndPoint: 127.0.0.1:14258
+System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   at System.Text.StringBuilder.AppendFormat(String format, Object arg0, Object arg1, Object arg2)
+   at SuperWebSocket.SuperWebSocketInitializer.buildJSONMessage(String message, String type, WebSocketSession session) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 180
+   at SuperWebSocket.SuperWebSocketInitializer.socketServer_NewSessionConnected(WebSocketSession session) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 132
+   at SuperWebSocket.WebSocketServer.ExecuteCommand(WebSocketSession session, WebSocketCommandInfo commandInfo) in E:\SuperWebSocket Drop 3\SuperWebSocket\WebSocketServer.cs:line 255
+   at SuperSocket.SocketBase.AppSession`2.ExecuteCommand(TAppSession session, TCommandInfo cmdInfo) in E:\Workshop\SuperSocket\mainline\SocketBase\AppSession.cs:line 56
+   at SuperSocket.SocketEngine.SocketSession`2.ExecuteCommand(TCommandInfo commandInfo) in E:\Workshop\SuperSocket\mainline\SocketEngine\SocketSession.cs:line 104
+   at SuperSocket.SocketEngine.SyncSocketSession`2.Start() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 66
+2011-01-05 09:37:29,763 [13] ERROR SuperWebSocket - SessionID: e5d5ad5a-f711-499b-a736-ec252f734483, SessionKey: e5d5ad5a-f711-499b-a736-ec252f734483, RemoteEndPoint: 127.0.0.1:14258
+System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   at System.Text.StringBuilder.AppendFormat(String format, Object arg0, Object arg1, Object arg2)
+   at SuperWebSocket.SuperWebSocketInitializer.buildJSONMessage(String message, String type, WebSocketSession session) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 180
+   at SuperWebSocket.SuperWebSocketInitializer.socketServer_CommandHandler(WebSocketSession session, WebSocketCommandInfo commandInfo) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 172
+   at SuperSocket.SocketBase.AppServer`2.ExecuteCommand(TAppSession session, TCommandInfo commandInfo) in E:\Workshop\SuperSocket\mainline\SocketBase\AppServer.cs:line 483
+   at SuperWebSocket.WebSocketServer.ExecuteCommand(WebSocketSession session, WebSocketCommandInfo commandInfo) in E:\SuperWebSocket Drop 3\SuperWebSocket\WebSocketServer.cs:line 265
+   at SuperSocket.SocketBase.AppSession`2.ExecuteCommand(TAppSession session, TCommandInfo cmdInfo) in E:\Workshop\SuperSocket\mainline\SocketBase\AppSession.cs:line 56
+   at SuperSocket.SocketEngine.SocketSession`2.ExecuteCommand(TCommandInfo commandInfo) in E:\Workshop\SuperSocket\mainline\SocketEngine\SocketSession.cs:line 104
+   at SuperSocket.SocketEngine.SyncSocketSession`2.Start() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 66
+2011-01-05 09:37:30,859 [14] ERROR SuperWebSocket - SessionID: 4c321537-b8d7-44bc-a9b6-02369e2e282b, SessionKey: 4c321537-b8d7-44bc-a9b6-02369e2e282b, RemoteEndPoint: 127.0.0.1:14271
+System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   at System.Text.StringBuilder.AppendFormat(String format, Object arg0, Object arg1, Object arg2)
+   at SuperWebSocket.SuperWebSocketInitializer.buildJSONMessage(String message, String type, WebSocketSession session) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 180
+   at SuperWebSocket.SuperWebSocketInitializer.socketServer_NewSessionConnected(WebSocketSession session) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 132
+   at SuperWebSocket.WebSocketServer.ExecuteCommand(WebSocketSession session, WebSocketCommandInfo commandInfo) in E:\SuperWebSocket Drop 3\SuperWebSocket\WebSocketServer.cs:line 255
+   at SuperSocket.SocketBase.AppSession`2.ExecuteCommand(TAppSession session, TCommandInfo cmdInfo) in E:\Workshop\SuperSocket\mainline\SocketBase\AppSession.cs:line 56
+   at SuperSocket.SocketEngine.SocketSession`2.ExecuteCommand(TCommandInfo commandInfo) in E:\Workshop\SuperSocket\mainline\SocketEngine\SocketSession.cs:line 104
+   at SuperSocket.SocketEngine.SyncSocketSession`2.Start() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 66
+2011-01-05 09:37:58,119 [12] ERROR SuperWebSocket - System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at SuperSocket.SocketEngine.SyncSocketServer`2.StartListen() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketServer.cs:line 77
+2011-01-05 09:37:58,132 [4] ERROR SuperSocket - Failed to start SuperWebSocket server!
+2011-01-05 09:37:58,153 [15] ERROR SecureSuperWebSocket - System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at SuperSocket.SocketEngine.SyncSocketServer`2.StartListen() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketServer.cs:line 77
+2011-01-05 09:37:58,153 [4] ERROR SuperSocket - Failed to start SecureSuperWebSocket server!
+2011-01-05 09:49:26,997 [14] ERROR SuperWebSocket - System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at SuperSocket.SocketEngine.SyncSocketServer`2.StartListen() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketServer.cs:line 77
+2011-01-05 09:49:27,016 [12] ERROR SuperSocket - Failed to start SuperWebSocket server!
+2011-01-05 09:49:27,018 [15] ERROR SecureSuperWebSocket - System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at SuperSocket.SocketEngine.SyncSocketServer`2.StartListen() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketServer.cs:line 77
+2011-01-05 09:49:27,018 [12] ERROR SuperSocket - Failed to start SecureSuperWebSocket server!
+2011-01-05 09:51:37,757 [18] ERROR SuperWebSocket - System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at SuperSocket.SocketEngine.SyncSocketServer`2.StartListen() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketServer.cs:line 77
+2011-01-05 09:51:37,772 [12] ERROR SuperSocket - Failed to start SuperWebSocket server!
+2011-01-05 09:51:37,799 [15] ERROR SecureSuperWebSocket - System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at SuperSocket.SocketEngine.SyncSocketServer`2.StartListen() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketServer.cs:line 77
+2011-01-05 09:51:37,799 [12] ERROR SuperSocket - Failed to start SecureSuperWebSocket server!
+2011-01-05 09:53:23,227 [14] ERROR SuperWebSocket - System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at SuperSocket.SocketEngine.SyncSocketServer`2.StartListen() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketServer.cs:line 77
+2011-01-05 09:53:23,242 [16] ERROR SuperSocket - Failed to start SuperWebSocket server!
+2011-01-05 09:53:23,243 [10] ERROR SecureSuperWebSocket - System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at SuperSocket.SocketEngine.SyncSocketServer`2.StartListen() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketServer.cs:line 77
+2011-01-05 09:53:23,243 [16] ERROR SuperSocket - Failed to start SecureSuperWebSocket server!
+2011-01-05 09:54:36,846 [11] ERROR SuperWebSocket - System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at SuperSocket.SocketEngine.SyncSocketServer`2.StartListen() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketServer.cs:line 77
+2011-01-05 09:54:36,860 [12] ERROR SuperSocket - Failed to start SuperWebSocket server!
+2011-01-05 09:54:36,884 [13] ERROR SecureSuperWebSocket - System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at SuperSocket.SocketEngine.SyncSocketServer`2.StartListen() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketServer.cs:line 77
+2011-01-05 09:54:36,885 [12] ERROR SuperSocket - Failed to start SecureSuperWebSocket server!
+2011-01-05 10:05:07,061 [19] ERROR SuperWebSocket - System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at SuperSocket.SocketEngine.SyncSocketServer`2.StartListen() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketServer.cs:line 77
+2011-01-05 10:05:07,078 [17] ERROR SuperSocket - Failed to start SuperWebSocket server!
+2011-01-05 10:05:07,103 [20] ERROR SecureSuperWebSocket - System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at SuperSocket.SocketEngine.SyncSocketServer`2.StartListen() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketServer.cs:line 77
+2011-01-05 10:05:07,104 [17] ERROR SuperSocket - Failed to start SecureSuperWebSocket server!
+2011-01-05 10:10:20,006 [14] ERROR SuperWebSocket - System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at SuperSocket.SocketEngine.SyncSocketServer`2.StartListen() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketServer.cs:line 77
+2011-01-05 10:10:20,026 [10] ERROR SuperSocket - Failed to start SuperWebSocket server!
+2011-01-05 10:10:20,051 [15] ERROR SecureSuperWebSocket - System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at SuperSocket.SocketEngine.SyncSocketServer`2.StartListen() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketServer.cs:line 77
+2011-01-05 10:10:20,051 [10] ERROR SuperSocket - Failed to start SecureSuperWebSocket server!
+2011-01-05 10:57:06,051 [14] ERROR SuperWebSocket - SessionID: aa2be8db-cd06-4552-ba69-d4ef8e717fc4, SessionKey: aa2be8db-cd06-4552-ba69-d4ef8e717fc4, RemoteEndPoint: 127.0.0.1:1342
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, Byte[] data) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 230
+2011-01-05 10:57:06,091 [14] ERROR SuperWebSocket - SessionID: aa2be8db-cd06-4552-ba69-d4ef8e717fc4, SessionKey: aa2be8db-cd06-4552-ba69-d4ef8e717fc4, RemoteEndPoint: 127.0.0.1:1342
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, String message) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 196
+2011-01-05 10:57:06,092 [14] ERROR SuperWebSocket - SessionID: aa2be8db-cd06-4552-ba69-d4ef8e717fc4, SessionKey: aa2be8db-cd06-4552-ba69-d4ef8e717fc4, RemoteEndPoint: 127.0.0.1:1342
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, Byte[] data) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 230
+2011-01-05 11:16:21,826 [28] ERROR SuperWebSocket - SessionID: 3d08590d-75f2-4638-bb4a-35353194d20c, SessionKey: 3d08590d-75f2-4638-bb4a-35353194d20c, RemoteEndPoint: 127.0.0.1:1714
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, Byte[] data) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 230
+2011-01-05 11:16:21,827 [28] ERROR SuperWebSocket - SessionID: 3d08590d-75f2-4638-bb4a-35353194d20c, SessionKey: 3d08590d-75f2-4638-bb4a-35353194d20c, RemoteEndPoint: 127.0.0.1:1714
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, String message) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 196
+2011-01-05 11:16:21,827 [28] ERROR SuperWebSocket - SessionID: 3d08590d-75f2-4638-bb4a-35353194d20c, SessionKey: 3d08590d-75f2-4638-bb4a-35353194d20c, RemoteEndPoint: 127.0.0.1:1714
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, Byte[] data) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 230
+2011-01-05 11:17:45,015 [25] ERROR SuperWebSocket - SessionID: aa3819c7-56fd-426e-95d8-8cee36e2e112, SessionKey: aa3819c7-56fd-426e-95d8-8cee36e2e112, RemoteEndPoint: 127.0.0.1:1753
+System.IO.IOException: Unable to write data to the transport connection: An established connection was aborted by the software in your host machine. ---> System.Net.Sockets.SocketException: An established connection was aborted by the software in your host machine
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, Byte[] data) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 230
+2011-01-05 11:23:06,216 [13] ERROR SuperWebSocket - SessionID: 8514fe9b-51b6-482d-9a94-5cec2f146a56, SessionKey: 8514fe9b-51b6-482d-9a94-5cec2f146a56, RemoteEndPoint: 127.0.0.1:1772
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, Byte[] data) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 230
+2011-01-05 11:23:06,216 [13] ERROR SuperWebSocket - SessionID: 8514fe9b-51b6-482d-9a94-5cec2f146a56, SessionKey: 8514fe9b-51b6-482d-9a94-5cec2f146a56, RemoteEndPoint: 127.0.0.1:1772
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, String message) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 196
+2011-01-05 11:23:06,217 [13] ERROR SuperWebSocket - SessionID: 8514fe9b-51b6-482d-9a94-5cec2f146a56, SessionKey: 8514fe9b-51b6-482d-9a94-5cec2f146a56, RemoteEndPoint: 127.0.0.1:1772
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, Byte[] data) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 230
+2011-01-05 12:29:35,854 [33] ERROR SuperWebSocket - System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at SuperSocket.SocketEngine.SyncSocketServer`2.StartListen() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketServer.cs:line 77
+2011-01-05 12:29:35,894 [24] ERROR SuperSocket - Failed to start SuperWebSocket server!
+2011-01-05 12:29:35,895 [22] ERROR SecureSuperWebSocket - System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at SuperSocket.SocketEngine.SyncSocketServer`2.StartListen() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketServer.cs:line 77
+2011-01-05 12:29:35,895 [24] ERROR SuperSocket - Failed to start SecureSuperWebSocket server!
+2011-01-05 13:47:38,115 [12] ERROR SuperWebSocket - System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at SuperSocket.SocketEngine.SyncSocketServer`2.StartListen() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketServer.cs:line 77
+2011-01-05 13:47:38,125 [27] ERROR SuperSocket - Failed to start SuperWebSocket server!
+2011-01-05 13:47:38,125 [24] ERROR SecureSuperWebSocket - System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at SuperSocket.SocketEngine.SyncSocketServer`2.StartListen() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketServer.cs:line 77
+2011-01-05 13:47:38,126 [27] ERROR SuperSocket - Failed to start SecureSuperWebSocket server!
+2011-01-05 14:12:41,908 [18] ERROR SuperWebSocket - System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at SuperSocket.SocketEngine.SyncSocketServer`2.StartListen() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketServer.cs:line 77
+2011-01-05 14:12:41,919 [4] ERROR SuperSocket - Failed to start SuperWebSocket server!
+2011-01-05 14:12:41,920 [32] ERROR SecureSuperWebSocket - System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at SuperSocket.SocketEngine.SyncSocketServer`2.StartListen() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketServer.cs:line 77
+2011-01-05 14:12:41,920 [4] ERROR SuperSocket - Failed to start SecureSuperWebSocket server!
+2011-01-05 14:22:53,849 [29] ERROR SuperWebSocket - System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at SuperSocket.SocketEngine.SyncSocketServer`2.StartListen() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketServer.cs:line 77
+2011-01-05 14:22:53,863 [19] ERROR SuperSocket - Failed to start SuperWebSocket server!
+2011-01-05 14:22:53,865 [31] ERROR SecureSuperWebSocket - System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at SuperSocket.SocketEngine.SyncSocketServer`2.StartListen() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketServer.cs:line 77
+2011-01-05 14:22:53,866 [19] ERROR SuperSocket - Failed to start SecureSuperWebSocket server!
+2011-01-05 15:08:03,373 [8] ERROR SuperWebSocket - System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at SuperSocket.SocketEngine.SyncSocketServer`2.StartListen() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketServer.cs:line 77
+2011-01-05 15:08:03,393 [4] ERROR SuperSocket - Failed to start SuperWebSocket server!
+2011-01-05 15:08:03,394 [9] ERROR SecureSuperWebSocket - System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at SuperSocket.SocketEngine.SyncSocketServer`2.StartListen() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketServer.cs:line 77
+2011-01-05 15:08:03,395 [4] ERROR SuperSocket - Failed to start SecureSuperWebSocket server!
+2011-01-05 15:13:29,345 [14] ERROR SuperWebSocket - SessionID: 6eeae26e-72ac-4499-b918-1d94831eb74a, SessionKey: 6eeae26e-72ac-4499-b918-1d94831eb74a, RemoteEndPoint: 127.0.0.1:1146
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SuperWebSocket.SuperWebSocketInitializer.socketServer_CommandHandler(WebSocketSession session, WebSocketCommandInfo commandInfo) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 179
+   at SuperSocket.SocketBase.AppServer`2.ExecuteCommand(TAppSession session, TCommandInfo commandInfo) in E:\Workshop\SuperSocket\mainline\SocketBase\AppServer.cs:line 483
+   at SuperWebSocket.WebSocketServer.ExecuteCommand(WebSocketSession session, WebSocketCommandInfo commandInfo) in E:\SuperWebSocket Drop 3\SuperWebSocket\WebSocketServer.cs:line 265
+   at SuperSocket.SocketBase.AppSession`2.ExecuteCommand(TAppSession session, TCommandInfo cmdInfo) in E:\Workshop\SuperSocket\mainline\SocketBase\AppSession.cs:line 56
+   at SuperSocket.SocketEngine.SocketSession`2.ExecuteCommand(TCommandInfo commandInfo) in E:\Workshop\SuperSocket\mainline\SocketEngine\SocketSession.cs:line 104
+   at SuperSocket.SocketEngine.SyncSocketSession`2.Start() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 66
+2011-01-05 15:13:30,479 [14] ERROR SuperWebSocket - SessionID: 6eeae26e-72ac-4499-b918-1d94831eb74a, SessionKey: 6eeae26e-72ac-4499-b918-1d94831eb74a, RemoteEndPoint: 127.0.0.1:1146
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SuperWebSocket.SuperWebSocketInitializer.socketServer_CommandHandler(WebSocketSession session, WebSocketCommandInfo commandInfo) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 179
+   at SuperSocket.SocketBase.AppServer`2.ExecuteCommand(TAppSession session, TCommandInfo commandInfo) in E:\Workshop\SuperSocket\mainline\SocketBase\AppServer.cs:line 483
+   at SuperWebSocket.WebSocketServer.ExecuteCommand(WebSocketSession session, WebSocketCommandInfo commandInfo) in E:\SuperWebSocket Drop 3\SuperWebSocket\WebSocketServer.cs:line 265
+   at SuperSocket.SocketBase.AppSession`2.ExecuteCommand(TAppSession session, TCommandInfo cmdInfo) in E:\Workshop\SuperSocket\mainline\SocketBase\AppSession.cs:line 56
+   at SuperSocket.SocketEngine.SocketSession`2.ExecuteCommand(TCommandInfo commandInfo) in E:\Workshop\SuperSocket\mainline\SocketEngine\SocketSession.cs:line 104
+   at SuperSocket.SocketEngine.SyncSocketSession`2.Start() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 66
+2011-01-05 15:13:35,093 [13] ERROR SuperWebSocket - SessionID: e791bd2e-b5b1-46ff-a43e-d688c204a3cd, SessionKey: e791bd2e-b5b1-46ff-a43e-d688c204a3cd, RemoteEndPoint: 127.0.0.1:1133
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SuperWebSocket.SuperWebSocketInitializer.socketServer_CommandHandler(WebSocketSession session, WebSocketCommandInfo commandInfo) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 179
+   at SuperSocket.SocketBase.AppServer`2.ExecuteCommand(TAppSession session, TCommandInfo commandInfo) in E:\Workshop\SuperSocket\mainline\SocketBase\AppServer.cs:line 483
+   at SuperWebSocket.WebSocketServer.ExecuteCommand(WebSocketSession session, WebSocketCommandInfo commandInfo) in E:\SuperWebSocket Drop 3\SuperWebSocket\WebSocketServer.cs:line 265
+   at SuperSocket.SocketBase.AppSession`2.ExecuteCommand(TAppSession session, TCommandInfo cmdInfo) in E:\Workshop\SuperSocket\mainline\SocketBase\AppSession.cs:line 56
+   at SuperSocket.SocketEngine.SocketSession`2.ExecuteCommand(TCommandInfo commandInfo) in E:\Workshop\SuperSocket\mainline\SocketEngine\SocketSession.cs:line 104
+   at SuperSocket.SocketEngine.SyncSocketSession`2.Start() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 66
+2011-01-05 15:14:14,233 [11] ERROR SuperWebSocket - SessionID: 3923c274-5140-40ef-a1e7-34368100bfe5, SessionKey: 3923c274-5140-40ef-a1e7-34368100bfe5, RemoteEndPoint: 127.0.0.1:1161
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SuperWebSocket.SuperWebSocketInitializer.socketServer_CommandHandler(WebSocketSession session, WebSocketCommandInfo commandInfo) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 179
+   at SuperSocket.SocketBase.AppServer`2.ExecuteCommand(TAppSession session, TCommandInfo commandInfo) in E:\Workshop\SuperSocket\mainline\SocketBase\AppServer.cs:line 483
+   at SuperWebSocket.WebSocketServer.ExecuteCommand(WebSocketSession session, WebSocketCommandInfo commandInfo) in E:\SuperWebSocket Drop 3\SuperWebSocket\WebSocketServer.cs:line 265
+   at SuperSocket.SocketBase.AppSession`2.ExecuteCommand(TAppSession session, TCommandInfo cmdInfo) in E:\Workshop\SuperSocket\mainline\SocketBase\AppSession.cs:line 56
+   at SuperSocket.SocketEngine.SocketSession`2.ExecuteCommand(TCommandInfo commandInfo) in E:\Workshop\SuperSocket\mainline\SocketEngine\SocketSession.cs:line 104
+   at SuperSocket.SocketEngine.SyncSocketSession`2.Start() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 66
+2011-01-05 15:14:15,499 [11] ERROR SuperWebSocket - SessionID: 3923c274-5140-40ef-a1e7-34368100bfe5, SessionKey: 3923c274-5140-40ef-a1e7-34368100bfe5, RemoteEndPoint: 127.0.0.1:1161
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SuperWebSocket.SuperWebSocketInitializer.socketServer_CommandHandler(WebSocketSession session, WebSocketCommandInfo commandInfo) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 179
+   at SuperSocket.SocketBase.AppServer`2.ExecuteCommand(TAppSession session, TCommandInfo commandInfo) in E:\Workshop\SuperSocket\mainline\SocketBase\AppServer.cs:line 483
+   at SuperWebSocket.WebSocketServer.ExecuteCommand(WebSocketSession session, WebSocketCommandInfo commandInfo) in E:\SuperWebSocket Drop 3\SuperWebSocket\WebSocketServer.cs:line 265
+   at SuperSocket.SocketBase.AppSession`2.ExecuteCommand(TAppSession session, TCommandInfo cmdInfo) in E:\Workshop\SuperSocket\mainline\SocketBase\AppSession.cs:line 56
+   at SuperSocket.SocketEngine.SocketSession`2.ExecuteCommand(TCommandInfo commandInfo) in E:\Workshop\SuperSocket\mainline\SocketEngine\SocketSession.cs:line 104
+   at SuperSocket.SocketEngine.SyncSocketSession`2.Start() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 66
+2011-01-05 15:15:33,264 [10] ERROR SuperWebSocket - SessionID: f7a3c18c-b721-4b12-87f8-b598ebc71050, SessionKey: f7a3c18c-b721-4b12-87f8-b598ebc71050, RemoteEndPoint: 127.0.0.1:1179
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SuperWebSocket.SuperWebSocketInitializer.socketServer_CommandHandler(WebSocketSession session, WebSocketCommandInfo commandInfo) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 179
+   at SuperSocket.SocketBase.AppServer`2.ExecuteCommand(TAppSession session, TCommandInfo commandInfo) in E:\Workshop\SuperSocket\mainline\SocketBase\AppServer.cs:line 483
+   at SuperWebSocket.WebSocketServer.ExecuteCommand(WebSocketSession session, WebSocketCommandInfo commandInfo) in E:\SuperWebSocket Drop 3\SuperWebSocket\WebSocketServer.cs:line 265
+   at SuperSocket.SocketBase.AppSession`2.ExecuteCommand(TAppSession session, TCommandInfo cmdInfo) in E:\Workshop\SuperSocket\mainline\SocketBase\AppSession.cs:line 56
+   at SuperSocket.SocketEngine.SocketSession`2.ExecuteCommand(TCommandInfo commandInfo) in E:\Workshop\SuperSocket\mainline\SocketEngine\SocketSession.cs:line 104
+   at SuperSocket.SocketEngine.SyncSocketSession`2.Start() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 66
+2011-01-05 15:18:09,566 [15] ERROR SuperWebSocket - System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at SuperSocket.SocketEngine.SyncSocketServer`2.StartListen() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketServer.cs:line 77
+2011-01-05 15:18:09,577 [12] ERROR SuperSocket - Failed to start SuperWebSocket server!
+2011-01-05 15:18:09,588 [16] ERROR SecureSuperWebSocket - System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at SuperSocket.SocketEngine.SyncSocketServer`2.StartListen() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketServer.cs:line 77
+2011-01-05 15:18:09,589 [12] ERROR SuperSocket - Failed to start SecureSuperWebSocket server!
+2011-01-05 15:20:52,451 [12] ERROR SuperWebSocket - SessionID: c9643644-55cf-4b32-9145-e93c858cac12, SessionKey: c9643644-55cf-4b32-9145-e93c858cac12, RemoteEndPoint: 127.0.0.1:1290
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SuperWebSocket.SuperWebSocketInitializer.socketServer_CommandHandler(WebSocketSession session, WebSocketCommandInfo commandInfo) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 179
+   at SuperSocket.SocketBase.AppServer`2.ExecuteCommand(TAppSession session, TCommandInfo commandInfo) in E:\Workshop\SuperSocket\mainline\SocketBase\AppServer.cs:line 483
+   at SuperWebSocket.WebSocketServer.ExecuteCommand(WebSocketSession session, WebSocketCommandInfo commandInfo) in E:\SuperWebSocket Drop 3\SuperWebSocket\WebSocketServer.cs:line 265
+   at SuperSocket.SocketBase.AppSession`2.ExecuteCommand(TAppSession session, TCommandInfo cmdInfo) in E:\Workshop\SuperSocket\mainline\SocketBase\AppSession.cs:line 56
+   at SuperSocket.SocketEngine.SocketSession`2.ExecuteCommand(TCommandInfo commandInfo) in E:\Workshop\SuperSocket\mainline\SocketEngine\SocketSession.cs:line 104
+   at SuperSocket.SocketEngine.SyncSocketSession`2.Start() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 66
+2011-01-05 15:21:25,869 [14] ERROR SuperWebSocket - SessionID: 91087b6a-07d9-4930-a1e9-c8096b0126cd, SessionKey: 91087b6a-07d9-4930-a1e9-c8096b0126cd, RemoteEndPoint: 127.0.0.1:1306
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SuperWebSocket.SuperWebSocketInitializer.socketServer_CommandHandler(WebSocketSession session, WebSocketCommandInfo commandInfo) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 179
+   at SuperSocket.SocketBase.AppServer`2.ExecuteCommand(TAppSession session, TCommandInfo commandInfo) in E:\Workshop\SuperSocket\mainline\SocketBase\AppServer.cs:line 483
+   at SuperWebSocket.WebSocketServer.ExecuteCommand(WebSocketSession session, WebSocketCommandInfo commandInfo) in E:\SuperWebSocket Drop 3\SuperWebSocket\WebSocketServer.cs:line 265
+   at SuperSocket.SocketBase.AppSession`2.ExecuteCommand(TAppSession session, TCommandInfo cmdInfo) in E:\Workshop\SuperSocket\mainline\SocketBase\AppSession.cs:line 56
+   at SuperSocket.SocketEngine.SocketSession`2.ExecuteCommand(TCommandInfo commandInfo) in E:\Workshop\SuperSocket\mainline\SocketEngine\SocketSession.cs:line 104
+   at SuperSocket.SocketEngine.SyncSocketSession`2.Start() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 66
+2011-01-05 15:21:39,901 [14] ERROR SuperWebSocket - SessionID: 91087b6a-07d9-4930-a1e9-c8096b0126cd, SessionKey: 91087b6a-07d9-4930-a1e9-c8096b0126cd, RemoteEndPoint: 127.0.0.1:1306
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SuperWebSocket.SuperWebSocketInitializer.socketServer_CommandHandler(WebSocketSession session, WebSocketCommandInfo commandInfo) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 179
+   at SuperSocket.SocketBase.AppServer`2.ExecuteCommand(TAppSession session, TCommandInfo commandInfo) in E:\Workshop\SuperSocket\mainline\SocketBase\AppServer.cs:line 483
+   at SuperWebSocket.WebSocketServer.ExecuteCommand(WebSocketSession session, WebSocketCommandInfo commandInfo) in E:\SuperWebSocket Drop 3\SuperWebSocket\WebSocketServer.cs:line 265
+   at SuperSocket.SocketBase.AppSession`2.ExecuteCommand(TAppSession session, TCommandInfo cmdInfo) in E:\Workshop\SuperSocket\mainline\SocketBase\AppSession.cs:line 56
+   at SuperSocket.SocketEngine.SocketSession`2.ExecuteCommand(TCommandInfo commandInfo) in E:\Workshop\SuperSocket\mainline\SocketEngine\SocketSession.cs:line 104
+   at SuperSocket.SocketEngine.SyncSocketSession`2.Start() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 66
+2011-01-05 15:22:11,113 [15] ERROR SuperWebSocket - SessionID: 17e5e779-f135-4dca-8b0b-43eae2b98467, SessionKey: 17e5e779-f135-4dca-8b0b-43eae2b98467, RemoteEndPoint: 127.0.0.1:1320
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SuperWebSocket.SuperWebSocketInitializer.socketServer_CommandHandler(WebSocketSession session, WebSocketCommandInfo commandInfo) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 179
+   at SuperSocket.SocketBase.AppServer`2.ExecuteCommand(TAppSession session, TCommandInfo commandInfo) in E:\Workshop\SuperSocket\mainline\SocketBase\AppServer.cs:line 483
+   at SuperWebSocket.WebSocketServer.ExecuteCommand(WebSocketSession session, WebSocketCommandInfo commandInfo) in E:\SuperWebSocket Drop 3\SuperWebSocket\WebSocketServer.cs:line 265
+   at SuperSocket.SocketBase.AppSession`2.ExecuteCommand(TAppSession session, TCommandInfo cmdInfo) in E:\Workshop\SuperSocket\mainline\SocketBase\AppSession.cs:line 56
+   at SuperSocket.SocketEngine.SocketSession`2.ExecuteCommand(TCommandInfo commandInfo) in E:\Workshop\SuperSocket\mainline\SocketEngine\SocketSession.cs:line 104
+   at SuperSocket.SocketEngine.SyncSocketSession`2.Start() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 66
+2011-01-05 15:26:33,651 [4] ERROR SuperWebSocket - SessionID: 91087b6a-07d9-4930-a1e9-c8096b0126cd, SessionKey: 91087b6a-07d9-4930-a1e9-c8096b0126cd, RemoteEndPoint: 127.0.0.1:1306
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, String message) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 196
+2011-01-05 15:26:33,659 [4] ERROR SuperWebSocket - SessionID: 91087b6a-07d9-4930-a1e9-c8096b0126cd, SessionKey: 91087b6a-07d9-4930-a1e9-c8096b0126cd, RemoteEndPoint: 127.0.0.1:1306
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, Byte[] data) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 230
+2011-01-05 15:35:49,696 [18] ERROR SuperWebSocket - System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at SuperSocket.SocketEngine.SyncSocketServer`2.StartListen() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketServer.cs:line 77
+2011-01-05 15:35:49,707 [11] ERROR SuperSocket - Failed to start SuperWebSocket server!
+2011-01-05 15:35:49,718 [16] ERROR SecureSuperWebSocket - System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at SuperSocket.SocketEngine.SyncSocketServer`2.StartListen() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketServer.cs:line 77
+2011-01-05 15:35:49,718 [11] ERROR SuperSocket - Failed to start SecureSuperWebSocket server!
+2011-01-05 15:40:33,863 [10] ERROR SuperWebSocket - SessionID: 0fa87e96-4713-485b-8666-ead027eabdb9, SessionKey: 0fa87e96-4713-485b-8666-ead027eabdb9, RemoteEndPoint: 127.0.0.1:1367
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SuperWebSocket.SuperWebSocketInitializer.socketServer_CommandHandler(WebSocketSession session, WebSocketCommandInfo commandInfo) in E:\SuperWebSocket Drop 3\SuperWebSocket\SuperWebSocketInitializer.cs:line 178
+   at SuperSocket.SocketBase.AppServer`2.ExecuteCommand(TAppSession session, TCommandInfo commandInfo) in E:\Workshop\SuperSocket\mainline\SocketBase\AppServer.cs:line 483
+   at SuperWebSocket.WebSocketServer.ExecuteCommand(WebSocketSession session, WebSocketCommandInfo commandInfo) in E:\SuperWebSocket Drop 3\SuperWebSocket\WebSocketServer.cs:line 265
+   at SuperSocket.SocketBase.AppSession`2.ExecuteCommand(TAppSession session, TCommandInfo cmdInfo) in E:\Workshop\SuperSocket\mainline\SocketBase\AppSession.cs:line 56
+   at SuperSocket.SocketEngine.SocketSession`2.ExecuteCommand(TCommandInfo commandInfo) in E:\Workshop\SuperSocket\mainline\SocketEngine\SocketSession.cs:line 104
+   at SuperSocket.SocketEngine.SyncSocketSession`2.Start() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 66
+2011-01-05 15:50:09,409 [19] ERROR SuperWebSocket - System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at SuperSocket.SocketEngine.SyncSocketServer`2.StartListen() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketServer.cs:line 77
+2011-01-05 15:50:09,422 [14] ERROR SuperSocket - Failed to start SuperWebSocket server!
+2011-01-05 15:50:09,423 [20] ERROR SecureSuperWebSocket - System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at SuperSocket.SocketEngine.SyncSocketServer`2.StartListen() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketServer.cs:line 77
+2011-01-05 15:50:09,423 [14] ERROR SuperSocket - Failed to start SecureSuperWebSocket server!
+2011-01-05 15:57:32,015 [21] ERROR SuperWebSocket - System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at SuperSocket.SocketEngine.SyncSocketServer`2.StartListen() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketServer.cs:line 77
+2011-01-05 15:57:32,026 [20] ERROR SuperSocket - Failed to start SuperWebSocket server!
+2011-01-05 15:57:32,027 [23] ERROR SecureSuperWebSocket - System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at SuperSocket.SocketEngine.SyncSocketServer`2.StartListen() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketServer.cs:line 77
+2011-01-05 15:57:32,027 [20] ERROR SuperSocket - Failed to start SecureSuperWebSocket server!
+2011-01-05 16:11:49,439 [19] ERROR SuperWebSocket - SessionID: 9965811c-2328-494f-b51e-906b79cb24ea, SessionKey: 9965811c-2328-494f-b51e-906b79cb24ea, RemoteEndPoint: 127.0.0.1:1878
+System.IO.IOException: Unable to write data to the transport connection: A request to send or receive data was disallowed because the socket had already been shut down in that direction with a previous shutdown call. ---> System.Net.Sockets.SocketException: A request to send or receive data was disallowed because the socket had already been shut down in that direction with a previous shutdown call
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, Byte[] data) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 230
+2011-01-05 16:11:49,445 [19] ERROR SuperWebSocket - SessionID: 9965811c-2328-494f-b51e-906b79cb24ea, SessionKey: 9965811c-2328-494f-b51e-906b79cb24ea, RemoteEndPoint: 127.0.0.1:1878
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, String message) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 196
+2011-01-05 16:11:49,446 [19] ERROR SuperWebSocket - SessionID: 9965811c-2328-494f-b51e-906b79cb24ea, SessionKey: 9965811c-2328-494f-b51e-906b79cb24ea, RemoteEndPoint: 127.0.0.1:1878
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, Byte[] data) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 230
+2011-01-05 16:17:00,638 [12] ERROR SuperWebSocket - System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at SuperSocket.SocketEngine.SyncSocketServer`2.StartListen() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketServer.cs:line 77
+2011-01-05 16:17:00,648 [25] ERROR SuperSocket - Failed to start SuperWebSocket server!
+2011-01-05 16:17:00,649 [26] ERROR SecureSuperWebSocket - System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at SuperSocket.SocketEngine.SyncSocketServer`2.StartListen() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketServer.cs:line 77
+2011-01-05 16:17:00,649 [25] ERROR SuperSocket - Failed to start SecureSuperWebSocket server!
+2011-01-05 16:25:15,690 [14] ERROR SuperWebSocket - SessionID: ed0151ae-31d0-491c-9bf8-ab88a118b532, SessionKey: ed0151ae-31d0-491c-9bf8-ab88a118b532, RemoteEndPoint: 127.0.0.1:2230
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, Byte[] data) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 230
+2011-01-05 16:25:15,693 [14] ERROR SuperWebSocket - SessionID: ed0151ae-31d0-491c-9bf8-ab88a118b532, SessionKey: ed0151ae-31d0-491c-9bf8-ab88a118b532, RemoteEndPoint: 127.0.0.1:2230
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, String message) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 196
+2011-01-05 16:25:15,694 [14] ERROR SuperWebSocket - SessionID: ed0151ae-31d0-491c-9bf8-ab88a118b532, SessionKey: ed0151ae-31d0-491c-9bf8-ab88a118b532, RemoteEndPoint: 127.0.0.1:2230
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, Byte[] data) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 230
+2011-01-05 16:44:09,320 [17] ERROR SuperWebSocket - SessionID: 485366c5-e42b-4418-9a6c-7b1119f60780, SessionKey: 485366c5-e42b-4418-9a6c-7b1119f60780, RemoteEndPoint: 127.0.0.1:2540
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, Byte[] data) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 230
+2011-01-05 16:44:09,323 [17] ERROR SuperWebSocket - SessionID: 485366c5-e42b-4418-9a6c-7b1119f60780, SessionKey: 485366c5-e42b-4418-9a6c-7b1119f60780, RemoteEndPoint: 127.0.0.1:2540
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, String message) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 196
+2011-01-05 16:44:09,324 [17] ERROR SuperWebSocket - SessionID: 485366c5-e42b-4418-9a6c-7b1119f60780, SessionKey: 485366c5-e42b-4418-9a6c-7b1119f60780, RemoteEndPoint: 127.0.0.1:2540
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, Byte[] data) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 230
+2011-01-05 16:59:38,597 [13] ERROR SuperWebSocket - System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at SuperSocket.SocketEngine.SyncSocketServer`2.StartListen() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketServer.cs:line 77
+2011-01-05 16:59:38,609 [17] ERROR SuperSocket - Failed to start SuperWebSocket server!
+2011-01-05 16:59:38,610 [19] ERROR SecureSuperWebSocket - System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at SuperSocket.SocketEngine.SyncSocketServer`2.StartListen() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketServer.cs:line 77
+2011-01-05 16:59:38,610 [17] ERROR SuperSocket - Failed to start SecureSuperWebSocket server!
+2011-01-05 17:08:43,788 [24] ERROR SuperWebSocket - System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at SuperSocket.SocketEngine.SyncSocketServer`2.StartListen() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketServer.cs:line 77
+2011-01-05 17:08:43,798 [23] ERROR SuperSocket - Failed to start SuperWebSocket server!
+2011-01-05 17:08:43,799 [25] ERROR SecureSuperWebSocket - System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at SuperSocket.SocketEngine.SyncSocketServer`2.StartListen() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketServer.cs:line 77
+2011-01-05 17:08:43,799 [23] ERROR SuperSocket - Failed to start SecureSuperWebSocket server!
+2011-01-05 17:09:45,082 [13] ERROR SuperWebSocket - System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at SuperSocket.SocketEngine.SyncSocketServer`2.StartListen() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketServer.cs:line 77
+2011-01-05 17:09:45,093 [4] ERROR SuperSocket - Failed to start SuperWebSocket server!
+2011-01-05 17:09:45,104 [14] ERROR SecureSuperWebSocket - System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at SuperSocket.SocketEngine.SyncSocketServer`2.StartListen() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketServer.cs:line 77
+2011-01-05 17:09:45,105 [4] ERROR SuperSocket - Failed to start SecureSuperWebSocket server!
+2011-01-05 17:11:41,569 [4] ERROR SuperWebSocket - SessionID: c212d975-132c-43b3-959b-35c1ce35c070, SessionKey: c212d975-132c-43b3-959b-35c1ce35c070, RemoteEndPoint: 127.0.0.1:3262
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, Byte[] data) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 230
+2011-01-05 17:11:41,589 [4] ERROR SuperWebSocket - SessionID: c212d975-132c-43b3-959b-35c1ce35c070, SessionKey: c212d975-132c-43b3-959b-35c1ce35c070, RemoteEndPoint: 127.0.0.1:3262
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, String message) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 196
+2011-01-05 17:11:41,603 [4] ERROR SuperWebSocket - SessionID: c212d975-132c-43b3-959b-35c1ce35c070, SessionKey: c212d975-132c-43b3-959b-35c1ce35c070, RemoteEndPoint: 127.0.0.1:3262
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, Byte[] data) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 230
+2011-01-05 05:20:13,551 [11] ERROR SuperWebSocket - SessionID: 94d1ddba-b5ed-41c4-8fea-270bf91c6975, SessionKey: 94d1ddba-b5ed-41c4-8fea-270bf91c6975, RemoteEndPoint: 127.0.0.1:1276
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, Byte[] data) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 230
+2011-01-05 05:52:29,231 [27] ERROR SuperWebSocket - System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at SuperSocket.SocketEngine.SyncSocketServer`2.StartListen() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketServer.cs:line 77
+2011-01-05 05:52:29,249 [37] ERROR SuperSocket - Failed to start SuperWebSocket server!
+2011-01-05 05:52:29,306 [26] ERROR SecureSuperWebSocket - System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at SuperSocket.SocketEngine.SyncSocketServer`2.StartListen() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketServer.cs:line 77
+2011-01-05 05:52:29,307 [37] ERROR SuperSocket - Failed to start SecureSuperWebSocket server!
+2011-01-05 06:16:03,650 [17] ERROR SuperWebSocket - System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at SuperSocket.SocketEngine.SyncSocketServer`2.StartListen() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketServer.cs:line 77
+2011-01-05 06:16:03,668 [13] ERROR SuperSocket - Failed to start SuperWebSocket server!
+2011-01-05 06:16:03,669 [22] ERROR SecureSuperWebSocket - System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at SuperSocket.SocketEngine.SyncSocketServer`2.StartListen() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketServer.cs:line 77
+2011-01-05 06:16:03,670 [13] ERROR SuperSocket - Failed to start SecureSuperWebSocket server!
+2011-01-05 06:45:18,589 [11] ERROR SuperWebSocket - System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at SuperSocket.SocketEngine.SyncSocketServer`2.StartListen() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketServer.cs:line 77
+2011-01-05 06:45:18,605 [21] ERROR SuperSocket - Failed to start SuperWebSocket server!
+2011-01-05 06:45:18,606 [12] ERROR SecureSuperWebSocket - System.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at SuperSocket.SocketEngine.SyncSocketServer`2.StartListen() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketServer.cs:line 77
+2011-01-05 06:45:18,607 [21] ERROR SuperSocket - Failed to start SecureSuperWebSocket server!

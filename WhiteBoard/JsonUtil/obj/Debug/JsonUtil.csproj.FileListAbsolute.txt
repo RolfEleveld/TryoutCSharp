@@ -1,0 +1,5 @@
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WhiteBoard\JsonUtil\bin\Debug\JsonUtil.dll
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WhiteBoard\JsonUtil\bin\Debug\JsonUtil.pdb
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WhiteBoard\JsonUtil\obj\Debug\JsonUtil.csprojResolveAssemblyReference.cache
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WhiteBoard\JsonUtil\obj\Debug\JsonUtil.dll
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WhiteBoard\JsonUtil\obj\Debug\JsonUtil.pdb

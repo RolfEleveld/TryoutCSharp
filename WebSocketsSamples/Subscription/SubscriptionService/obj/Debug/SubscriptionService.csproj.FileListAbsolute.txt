@@ -1,0 +1,9 @@
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\Subscription\SubscriptionService\obj\Debug\SubscriptionService.csprojResolveAssemblyReference.cache
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\build\Debug\WebSockets\bin\SubscriptionService.exe.config
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\build\Debug\WebSockets\bin\SubscriptionService.exe
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\build\Debug\WebSockets\bin\SubscriptionService.pdb
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\Subscription\SubscriptionService\obj\Debug\SubscriptionService.exe
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\Subscription\SubscriptionService\obj\Debug\SubscriptionService.pdb
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\Subscription\build\SubscriptionService.exe.config
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\Subscription\build\SubscriptionService.exe
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\Subscription\build\SubscriptionService.pdb

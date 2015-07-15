@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="TakeOrdersOverTwitterWPF.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="TwitterUserName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">shanselman</Value>
+    </Setting>
+    <Setting Name="OrderString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Order</Value>
+    </Setting>
+    <Setting Name="LastOrder" Type="System.Int64" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

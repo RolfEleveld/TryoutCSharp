@@ -1,0 +1,177 @@
+<stylecopresultscache>
+  <version>10</version>
+  <sourcecode name="BroadcastMessageType.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>03/03/2011 13:57:00</timestamp>
+      <milliseconds>550</milliseconds>
+    </settings>
+    <timestamp>04/28/2011 16:25:06</timestamp>
+    <milliseconds>249</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="GameComplete.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>03/03/2011 13:57:00</timestamp>
+      <milliseconds>550</milliseconds>
+    </settings>
+    <timestamp>04/28/2011 16:25:06</timestamp>
+    <milliseconds>252</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="GetBuddyPlayers.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>03/03/2011 13:57:00</timestamp>
+      <milliseconds>550</milliseconds>
+    </settings>
+    <timestamp>04/28/2011 16:25:06</timestamp>
+    <milliseconds>255</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="IGameCommand.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>03/03/2011 13:57:00</timestamp>
+      <milliseconds>550</milliseconds>
+    </settings>
+    <timestamp>04/28/2011 16:25:06</timestamp>
+    <milliseconds>277</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Login.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>03/03/2011 13:57:00</timestamp>
+      <milliseconds>550</milliseconds>
+    </settings>
+    <timestamp>04/28/2011 16:25:06</timestamp>
+    <milliseconds>283</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="SelectBuddy.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>03/03/2011 13:57:00</timestamp>
+      <milliseconds>550</milliseconds>
+    </settings>
+    <timestamp>04/28/2011 16:25:06</timestamp>
+    <milliseconds>287</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="SendDotPoint.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>03/03/2011 13:57:00</timestamp>
+      <milliseconds>550</milliseconds>
+    </settings>
+    <timestamp>04/28/2011 16:25:06</timestamp>
+    <milliseconds>291</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="SendMousePoint.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>03/03/2011 13:57:00</timestamp>
+      <milliseconds>550</milliseconds>
+    </settings>
+    <timestamp>04/28/2011 16:25:06</timestamp>
+    <milliseconds>295</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="UILoadComplete.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>03/03/2011 13:57:00</timestamp>
+      <milliseconds>550</milliseconds>
+    </settings>
+    <timestamp>04/28/2011 16:25:06</timestamp>
+    <milliseconds>298</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="UpdateScore.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>03/03/2011 13:57:00</timestamp>
+      <milliseconds>550</milliseconds>
+    </settings>
+    <timestamp>04/28/2011 16:25:06</timestamp>
+    <milliseconds>302</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="GameCommandHandler.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>03/03/2011 13:57:00</timestamp>
+      <milliseconds>550</milliseconds>
+    </settings>
+    <timestamp>04/28/2011 16:25:06</timestamp>
+    <milliseconds>307</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="GameServiceContext.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>03/03/2011 13:57:00</timestamp>
+      <milliseconds>550</milliseconds>
+    </settings>
+    <timestamp>04/28/2011 16:25:06</timestamp>
+    <milliseconds>319</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="GameService.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>03/03/2011 13:57:00</timestamp>
+      <milliseconds>550</milliseconds>
+    </settings>
+    <timestamp>04/28/2011 16:25:06</timestamp>
+    <milliseconds>311</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="GlobalSuppressions.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>03/03/2011 13:57:00</timestamp>
+      <milliseconds>550</milliseconds>
+    </settings>
+    <timestamp>04/28/2011 16:25:06</timestamp>
+    <milliseconds>330</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Logger.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>03/03/2011 13:57:00</timestamp>
+      <milliseconds>550</milliseconds>
+    </settings>
+    <timestamp>04/28/2011 16:25:06</timestamp>
+    <milliseconds>334</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Program.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>03/03/2011 13:57:00</timestamp>
+      <milliseconds>550</milliseconds>
+    </settings>
+    <timestamp>04/28/2011 16:25:06</timestamp>
+    <milliseconds>339</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="AssemblyInfo.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>03/03/2011 13:57:00</timestamp>
+      <milliseconds>550</milliseconds>
+    </settings>
+    <timestamp>04/28/2011 16:25:06</timestamp>
+    <milliseconds>346</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="ServiceCollection.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>03/03/2011 13:57:00</timestamp>
+      <milliseconds>550</milliseconds>
+    </settings>
+    <timestamp>04/28/2011 16:25:06</timestamp>
+    <milliseconds>349</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="GameSessions.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>03/03/2011 13:57:00</timestamp>
+      <milliseconds>550</milliseconds>
+    </settings>
+    <timestamp>04/28/2011 16:25:06</timestamp>
+    <milliseconds>326</milliseconds>
+    <violations />
+  </sourcecode>
+  <project key="1023046228">
+    <configuration>TRACE</configuration>
+  </project>
+</stylecopresultscache>

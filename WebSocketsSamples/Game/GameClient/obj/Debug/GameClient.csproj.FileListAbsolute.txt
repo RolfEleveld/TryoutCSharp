@@ -1,0 +1,12 @@
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\build\Debug\WebSockets\web\game\css\html5demos.css
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\build\Debug\WebSockets\web\game\js\h5utils.js
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\build\Debug\WebSockets\web\game\js\jquery-1.4.2.min.js
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\build\Debug\WebSockets\web\game\js\jquery.slws.js
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\build\Debug\WebSockets\web\game\js\json2.js
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\build\Debug\WebSockets\web\game\js\Silverlight.js
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\build\Debug\WebSockets\web\game\wsdemo.html
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\build\Debug\WebSockets\web\game\GameClient.dll
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\build\Debug\WebSockets\web\game\GameClient.pdb
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\Game\GameClient\obj\Debug\GameClient.csprojResolveAssemblyReference.cache
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\Game\GameClient\obj\Debug\GameClient.dll
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\Game\GameClient\obj\Debug\GameClient.pdb

@@ -1,0 +1,11 @@
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\build\Debug\WebSockets\web\subscription\css\html5demos.css
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\build\Debug\WebSockets\web\subscription\js\h5utils.js
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\build\Debug\WebSockets\web\subscription\js\jquery.slws.js
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\build\Debug\WebSockets\web\subscription\js\json2.js
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\build\Debug\WebSockets\web\subscription\js\Silverlight.js
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\build\Debug\WebSockets\web\subscription\wsdemo.html
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\build\Debug\WebSockets\web\subscription\SubscriptionClient.dll
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\build\Debug\WebSockets\web\subscription\SubscriptionClient.pdb
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\Subscription\SubscriptionClient\obj\Debug\SubscriptionClient.csprojResolveAssemblyReference.cache
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\Subscription\SubscriptionClient\obj\Debug\SubscriptionClient.dll
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\Subscription\SubscriptionClient\obj\Debug\SubscriptionClient.pdb

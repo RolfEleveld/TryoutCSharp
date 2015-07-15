@@ -1,0 +1,21 @@
+2012-01-17 22:47:11,555 [10] ERROR SuperWebSocket - SessionID: f88329bc-d345-4549-9eab-e02827a14dca, SessionKey: f88329bc-d345-4549-9eab-e02827a14dca, RemoteEndPoint: 127.0.0.1:7586
+System.IO.IOException: Unable to write data to the transport connection: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.. ---> System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at SuperSocket.SocketEngine.SyncSocketSession`2.SendResponse(SocketContext context, Byte[] data) in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 230
+2012-01-17 22:47:11,719 [10] ERROR SuperWebSocket - SessionID: f88329bc-d345-4549-9eab-e02827a14dca, SessionKey: f88329bc-d345-4549-9eab-e02827a14dca, RemoteEndPoint: 127.0.0.1:7586
+System.InvalidOperationException: Collection was modified; enumeration operation may not execute.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Collections.Generic.List`1.Enumerator.MoveNextRare()
+   at System.Collections.Generic.List`1.Enumerator.MoveNext()
+   at SuperWebSocket.SuperWebSocketInitializer.SendToAll(String message) in c:\Users\rolf\Documents\Visual Studio 11\Projects\WhiteBoard\SuperWebSocket\SuperWebSocketInitializer.cs:line 215
+   at SuperWebSocket.SuperWebSocketInitializer.socketServer_NewSessionConnected(WebSocketSession session) in c:\Users\rolf\Documents\Visual Studio 11\Projects\WhiteBoard\SuperWebSocket\SuperWebSocketInitializer.cs:line 144
+   at SuperWebSocket.WebSocketServer.ExecuteCommand(WebSocketSession session, WebSocketCommandInfo commandInfo) in c:\Users\rolf\Documents\Visual Studio 11\Projects\WhiteBoard\SuperWebSocket\WebSocketServer.cs:line 255
+   at SuperSocket.SocketBase.AppSession`2.ExecuteCommand(TAppSession session, TCommandInfo cmdInfo) in E:\Workshop\SuperSocket\mainline\SocketBase\AppSession.cs:line 56
+   at SuperSocket.SocketEngine.SocketSession`2.ExecuteCommand(TCommandInfo commandInfo) in E:\Workshop\SuperSocket\mainline\SocketEngine\SocketSession.cs:line 104
+   at SuperSocket.SocketEngine.SyncSocketSession`2.Start() in E:\Workshop\SuperSocket\mainline\SocketEngine\SyncSocketSession.cs:line 66

@@ -1,0 +1,17 @@
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WhiteBoard\SuperWebSocketTest\bin\Debug\SuperWebSocketTest.dll
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WhiteBoard\SuperWebSocketTest\bin\Debug\SuperWebSocketTest.pdb
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WhiteBoard\SuperWebSocketTest\bin\Debug\nunit.framework.dll
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WhiteBoard\SuperWebSocketTest\bin\Debug\SuperSocket.Common.dll
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WhiteBoard\SuperWebSocketTest\bin\Debug\SuperSocket.SocketBase.dll
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WhiteBoard\SuperWebSocketTest\bin\Debug\SuperSocket.SocketEngine.dll
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WhiteBoard\SuperWebSocketTest\bin\Debug\SuperWebSocket.dll
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WhiteBoard\SuperWebSocketTest\bin\Debug\JsonUtil.dll
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WhiteBoard\SuperWebSocketTest\bin\Debug\log4net.dll
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WhiteBoard\SuperWebSocketTest\bin\Debug\SuperWebSocket.pdb
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WhiteBoard\SuperWebSocketTest\bin\Debug\SuperSocket.Common.pdb
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WhiteBoard\SuperWebSocketTest\bin\Debug\SuperSocket.SocketBase.pdb
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WhiteBoard\SuperWebSocketTest\bin\Debug\SuperSocket.SocketEngine.pdb
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WhiteBoard\SuperWebSocketTest\bin\Debug\JsonUtil.pdb
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WhiteBoard\SuperWebSocketTest\obj\Debug\SuperWebSocketTest.csprojResolveAssemblyReference.cache
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WhiteBoard\SuperWebSocketTest\obj\Debug\SuperWebSocketTest.dll
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WhiteBoard\SuperWebSocketTest\obj\Debug\SuperWebSocketTest.pdb

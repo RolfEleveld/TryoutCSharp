@@ -1,0 +1,6 @@
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\build\Debug\WebSockets\bin\GameTestClient.exe
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\build\Debug\WebSockets\bin\GameTestClient.pdb
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\Game\GameTestClient\obj\Debug\GameTestClient.csprojResolveAssemblyReference.cache
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\Game\GameTestClient\obj\Debug\GameTestClient.exe
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\Game\GameTestClient\obj\Debug\GameTestClient.pdb
+C:\Users\rolf\Documents\Visual Studio 11\Projects\WebSocketsSamples\build\Debug\WebSockets\bin\GameTestClient.exe.config

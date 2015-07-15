@@ -1,0 +1,148 @@
+﻿<!DOCTYPE html>
+<html lang="en" manifest="cache-manifest">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=620">
+    <title>Epicure Geolocation: geolocation</title>
+</head>
+<body>
+    <section id="wrapper">
+    <header>
+      <a href="http://dev.w3.org/geo/api/spec-source.html"><h1>geolocation</h1></a> <a href="http://www.w3.org/TR/offline-webapps/">Cached offline</a>
+    </header>
+    <meta name="viewport" content="width=620" />
+    <article><p>Finding your location: <span id="status">checking...</span></p></article>
+    <script>
+        function supports_html5_storage() {
+            try {
+                return 'localStorage' in window && window['localStorage'] !== null;
+            } catch (e) {
+                return false;
+            }
+        }
+        var monitorID;
+        var index = null;
+        if (supports_html5_storage()) {
+            index = localStorage.getItem('index');
+        }
+        var online = navigator.onLine; // tells if we have an internet connection or not.
+        if (Window.openDatabase) {
+            var db = Window.openDatabase("mypositions", "", "tracker of my locations to make sure I keep a history of where I was before I sync up again", 691200); // one night worth of data at 30 seconds intervals ==> 24 * 60 * 2 = 2880 * rowsize (8 * 30) = 691200
+        }
+        function success(position) {
+            var s = document.querySelector('#status');
+
+            s.innerHTML = "found you!";
+            s.className = 'success';
+
+            var latlong = document.querySelector('#latlong');
+            latlong.innerHTML = "time: " + position.timestamp + " lat: " + position.coords.latitude + " long : " + position.coords.longitude + " ± " + position.accuracy + " height: " + position.coords.altitude + " heading: " + position.coords.heading + "<br />" + latlong.innerHTML;
+        }
+        function monitor(position) {
+            var s = document.querySelector('#status');
+            s.innerHTML = "adding geo datapoint";
+            var location = position.coords.latitude + ',' + position.coords.longitude + ',' + position.coords.altitude;
+            if (index == 'undefined' || index == null) {
+                index = 0;
+            }
+            storePosition(position);
+            index++;
+            localStorage.setItem('timestamp' + index, position.timestamp);
+            localStorage.setItem('position' + index, location);
+            localStorage.setItem('positionAccuracy' + index, position.coords.accuracy);
+            localStorage.setItem('altitude' + index, position.coords.altitude);
+            localStorage.setItem('altitudeAccuracy' + index, position.coords.altitudeAccuracy);
+            localStorage.setItem('heading' + index, position.coords.heading); // 0-360 degrees from North
+            localStorage.setItem('speed' + index, position.coords.speed); // when speed = 0 there is no heading NaN
+            localStorage.setItem('index', index);
+
+
+
+            var latlong = document.querySelector('#latlong');
+            latlong.innerHTML = "index: " + index + " time: " + position.timestamp + " coord:" + location + " height: " + position.coords.altitude + " heading: " + position.coords.heading + "<br />" + latlong.innerHTML;
+        }
+        function assureDatabase() {
+            if (db) {
+                db.transaction(function (tx) {
+                    tx.executeSql('Create table if not exists Coordinates(timestamp, lat, long, accuracy, altitude, altitudeAcuracy, heading, speed)', []);
+                });
+            }
+        }
+        function storePosition(position) {
+            assureDatabase();
+            if (db) {
+                db.transaction(function (tx) {
+                    tx.executeSql('Insert into Coordinates(?, ?, ?, ?, ?, ?, ?, ?)', position.timestamp, position.coords.latitude, position.coords.longitude, position.accuracy, position.coords.altitude, position.coords.altitudeAccuracy, position.coords.heading, position.coords.speed);
+                });
+            }
+        }
+        function errorMonitor(error) {
+            var s = document.querySelector('#status');
+            var reason;
+            switch (error.code) {
+                case PositionError.PERMISSION_DENIED:
+                    reason = "Permission denied";
+                    break;
+                case PositionError.POSITION_UNAVAILABLE:
+                    reason = "Position unavailable";
+                    break;
+                case PositionError.TIMEOUT:
+                    reason = "Timed out obtaining location";
+                    break;
+            }
+            s.innerHTML = "Error obtaining coordinates because: " + reason + " with message: " + error.message;
+        }
+        function error(msg) {
+            var s = document.querySelector('#status');
+            s.innerHTML = typeof msg == 'string' ? msg : "failed";
+            s.className = 'fail';
+        }
+
+        function startmonitor() {
+            if (navigator.geolocation) {
+                monitorID = navigator.geolocation.watchPosition(monitor, errorMonitor, { maximumAge: 30000, timeout: 10000 });
+            }
+        }
+        function stopmonitor() {
+            if (navigator.geolocation) {
+                navigator.geolocation.clearWatch(monitorID);
+            }
+        }
+        function getAnyCachedPosition() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(success, error, { maxage: Infinity, timeout: 0 });
+                // will not try to look it up at all, if there is no cached location it will go into error funtion.
+                // In the success method you can read out the timestamp of the actual moment the coordinate was obtained.
+            }
+        }
+        function getAcuratePosition() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(success, error, { enableHighAccuracy: true, timeout: 30000 });
+                // will try to be more accurate using GPS if the device allows for that.
+            }
+        }
+
+        function checkagain() {
+            if (navigator.geolocation) {
+                var s = document.querySelector('#status');
+                s.innerHTML = "checking...";
+                s.className = '';
+
+                if (navigator.geolocation) {
+                    navigator.geolocation.getCurrentPosition(success, error, { timeout: 10000 });
+                } else {
+                    error('not supported');
+                }
+            }
+        }
+        checkagain();
+</script>
+
+<a href="javascript:startmonitor()">Start</a> <a href="javascript:stopmonitor()">Stop</a>
+<a href="javascript:checkagain()">New position</a> <a href="javascript:getAnyCachedPosition()">Last known position</a>
+<a href="javascript:getAcuratePosition()">get Acurate position</a>
+<div id="latlong"></div>
+<footer>Epicure POC demo</footer> 
+</section>
+</body>
+</html>
